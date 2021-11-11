@@ -28,3 +28,46 @@ body {
     font-weight: bolder;
     color: #0C3C60;
   }
+
+  /* logo */
+  #logo {
+    float: left;
+    font-size: 280%;
+}
+
+  /* navigation menu */
+  #menu {
+    font-size: 80%;
+    letter-spacing: 5px;
+    background-color: #fff;
+    vertical-align: top;
+  }
+
+  #menu,
+menu ul {
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+  padding-left: 0;
+}
+
+#menu,
+#menu li {list-style-type: none;
+    margin-right: 40px;}
+
+    #menu a {
+        text-decoration: none;
+        color: inherit;
+      }
+      
+      #menu a:hover {
+        border: 1px solid #85C5D4;
+        padding: 10px;
+      }
+      
+      .active {
+        border: 1px solid #85C5D4;
+        padding: 10px;
+      }
