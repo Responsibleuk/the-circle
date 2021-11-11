@@ -1,0 +1,30 @@
+
+
+
+/* body styling */
+
+body {
+    font-family: merriweather-sans, sans-serif;
+    font-weight: 300;
+    color: #0C3C60;
+  }
+  
+  /* heading styling */
+  
+  h1,
+  h2,
+  h3 {
+    font-family: raleway, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    color: #0C3C60;
+  }
+  
+  h4,
+  h5,
+  h6 {
+    font-family: raleway, sans-serif;
+    font-size: larger;
+    font-weight: bolder;
+    color: #0C3C60;
+  }
