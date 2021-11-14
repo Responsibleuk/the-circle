@@ -71,3 +71,80 @@ menu ul {
         border: 1px solid #85C5D4;
         padding: 10px;
       }
+
+      /* hero image */
+
+#hero-image {
+  height: 400px;
+  width: 100%;
+  overflow: hidden;
+  background: url(../images/hero-images/hero-home-page.jpg) no-repeat center center;
+}
+
+      /* introduction */
+
+      .introduction-container {
+        background-color: lightblue;
+        padding-left: 100px;
+        padding-right: 100px;
+        }
+
+
+/* who we are what we do */
+
+.who-and-what-container {
+  background-color: lightslategray;
+  padding-left: 100px;
+  padding-right: 100px;
+  }
+
+        #who {
+          padding-top: 30px;
+          padding-left: 100px;
+          width: 25%;
+          float: left;
+        }
+        
+        #what {
+          padding-top: 30px;
+          padding-right: 100px;
+          width: 50%;
+          float: right;
+        }
+
+
+
+    
+      /* Awareness */
+
+      .flex-container {
+        display: flex;
+        justify-content: flex-start;
+        flex-direction: row;
+        background-color: orange;
+        /* padding-left: 80px;
+        padding-right: 80px; */
+        }
+
+      /* figure {
+        display: flex;
+        flex-flow: row;
+        justify-content: flex-start;
+      } */
+      
+      img {
+        width: 25vw;
+        margin-bottom: 0;
+      }
+      
+      figure {
+        display: flex;
+        flex-flow: column;
+        width: 25vw;
+      }
+
+      figcaption {
+        align-self: flex-start;
+        border-bottom: 2px solid rgb(169, 13, 94);
+        font-size: 80%;
+        width: 25vw;}
