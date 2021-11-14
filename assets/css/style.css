@@ -236,23 +236,24 @@ padding-right: 50px;
 }
 
 .un-flex-grid {
-width: 10vw;
+  display: block;
+  margin-left: 50px;
+  margin-right: auto;
 }
 
-.un-flex-grid, a {
-display: flex;
-flex-direction: row;
-flex-wrap: wrap;
-width: 10vw;
-margin-bottom: 0;
-}
-/* .un-img {
+.un-img {
   float: left;
-  width: 16%;
-  padding-left: 5px;
-  padding-top: 5px;
-  padding-bottom: 5px;
-} */
+  width: 19%;
+  padding-bottom: 21px;
+}
+
+.un-img-horizontal {
+  float: left;
+  width: 19%;
+  padding-bottom: 21px;
+}
+
+
 
 
 /* rewilding */
