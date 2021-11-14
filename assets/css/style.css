@@ -157,7 +157,6 @@ padding-right: 10px;
 padding-top: 10px;
 }
 
-
 .emailSignup {
   display: block;
   background: #0C3C60;
@@ -253,10 +252,8 @@ padding-right: 50px;
   padding-bottom: 21px;
 }
 
-
-
-
 /* rewilding */
+
 #awareness-container {
   background-color:white;
   width: 100%;
@@ -273,6 +270,53 @@ padding-right: 50px;
   }
           
   #solution {
+  padding-top: 30px;
+  padding-right: 150px;
+  width: 50%;
+  float: right;
+  }
+
+
+  /* hope */
+  /* need to make specific */
+  .hope-figure {
+    display: flex;
+    flex-flow: row;
+    justify-content: flex-start;
+  }
+  
+  .hope-img {
+    width: 30vw;
+    margin-bottom: 0;
+  }
+  
+  .hope-figcaption {
+    align-self: flex-start;
+    border-left: 1em solid rgb(169, 13, 94);
+    padding-left: 1em;
+    margin-left: 2em;
+    width: 25vw;
+  }
+
+  /* who we are what we do */
+  /* need to make specific for hope */
+
+#who-and-what-container {
+  background-color: lightslategray;
+  width: 100%;
+  padding-left: 50px;
+  padding-right: 50px;
+  overflow: hidden; 
+  }
+  
+  #who {
+  padding-top: 30px;
+  padding-left: 50px;
+  width: 25%;
+  float: left;
+  }
+          
+  #what {
   padding-top: 30px;
   padding-right: 150px;
   width: 50%;
