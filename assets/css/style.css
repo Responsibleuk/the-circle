@@ -1,6 +1,3 @@
-
-
-
 /* body styling */
 
 body {
@@ -32,7 +29,7 @@ body {
   /* logo */
   #logo {
     float: left;
-    font-size: 280%;
+    padding-left: 100px;
 }
 
   /* navigation menu */
@@ -41,6 +38,7 @@ body {
     letter-spacing: 5px;
     background-color: #fff;
     vertical-align: top;
+    padding: 20px;
   }
 
   #menu,
@@ -81,50 +79,49 @@ menu ul {
   background: url(../images/hero-images/hero-home-page.jpg) no-repeat center center;
 }
 
-      /* introduction */
+/* introduction */
 
-      .introduction-container {
-        background-color: lightblue;
-        padding-left: 100px;
-        padding-right: 100px;
-        }
+.introduction-container {
+background-color: lightblue;
+padding-left: 100px;
+padding-right: 100px;
+padding-top: 50px;
+}
 
 
 /* who we are what we do */
 
-.who-and-what-container {
-  background-color: lightslategray;
-  padding-left: 100px;
-  padding-right: 100px;
-  }
+#who-and-what-container {
+background-color: lightslategray;
+width: 100%;
+padding-left: 50px;
+padding-right: 50px;
+overflow: hidden; 
+}
 
-        #who {
-          padding-top: 30px;
-          padding-left: 100px;
-          width: 25%;
-          float: left;
-        }
+#who {
+padding-top: 30px;
+padding-left: 50px;
+width: 25%;
+float: left;
+}
         
-        #what {
-          padding-top: 30px;
-          padding-right: 100px;
-          width: 50%;
-          float: right;
-        }
+#what {
+padding-top: 30px;
+padding-right: 150px;
+width: 50%;
+float: right;
+}
 
+/* Awareness */
 
-
-    
-      /* Awareness */
-
-      .flex-container {
-        display: flex;
-        justify-content: flex-start;
-        flex-direction: row;
-        background-color: orange;
-        /* padding-left: 80px;
-        padding-right: 80px; */
-        }
+.flex-container {
+display: flex;
+justify-content: flex-start;
+flex-direction: row;
+background-color: orange;        
+padding-left: 60px;
+}
 
       /* figure {
         display: flex;
@@ -132,19 +129,91 @@ menu ul {
         justify-content: flex-start;
       } */
       
-      img {
-        width: 25vw;
-        margin-bottom: 0;
-      }
+img {
+width: 24vw;
+margin-bottom: 0;
+}
       
-      figure {
-        display: flex;
-        flex-flow: column;
-        width: 25vw;
-      }
+figure {
+display: flex;
+flex-flow: column;
+width: 24vw;
+}
 
-      figcaption {
-        align-self: flex-start;
-        border-bottom: 2px solid rgb(169, 13, 94);
-        font-size: 80%;
-        width: 25vw;}
+figcaption {
+align-self: flex-start;
+border-bottom: 2px solid rgb(169, 13, 94);
+font-size: 80%;
+width: 24vw;
+}
+
+/* footer */
+
+.emailSignup {
+  display: block;
+  background: #0C3C60;
+  width: 100%;
+  margin: 0 0 20px;
+  position: relative;
+  box-sizing: border-box;
+  padding: 40px;
+  text-align: center;
+}
+
+.emailSignup h2 {
+  font-size: 32px;
+  margin: 0 0 10px;
+  color: #FFFFFF;
+}
+
+.emailSignup p {
+  font-size: 20px;
+  line-height: 1.4;
+  margin: 0 0 20px;
+  color: #D3D3D3;
+}
+
+.emailSignup form {
+  text-align: center;
+}
+
+.emailSignup--email-input {
+  border: 0;
+  outline: 0;
+  width: 50%;
+  height: 46px;
+  line-height: 46px;
+  padding: 5px 20px;
+  box-sizing: border-box;
+  font-size: 18px;
+  border-radius: 3px;
+}
+
+.emailSignup--email-submit {
+  border: 0;
+  width: 18%;
+  height: 46px;
+  line-height: 46px;
+  font-size: 22px;
+  font-weight: bold;
+  background: #85C5D4;
+  color: #FFFFFF;
+  border-radius: 3px;
+  text-transform: uppercase;
+  text-shadow: 0 0 1px #85C5D4;
+}
+
+.closeBox {
+  height: 30px;
+  width: 30px;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: #fff;
+  line-height: 30px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 16px;
+  border-radius: 9999px;
+  cursor: pointer;
+}
