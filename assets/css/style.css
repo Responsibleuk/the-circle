@@ -130,18 +130,18 @@ padding-left: 60px;
         justify-content: flex-start;
       } */
       
-img {
+.awareness-image {
 width: 24vw;
 margin-bottom: 0;
 }
       
-figure {
+.awareness-figure {
 display: flex;
 flex-flow: column;
 width: 24vw;
 }
 
-figcaption {
+.awareness-caption {
 align-self: flex-start;
 border-bottom: 2px solid rgb(169, 13, 94);
 font-size: 80%;
@@ -257,7 +257,7 @@ margin-bottom: 0;
 
 /* rewilding */
 #awareness-container {
-  background-color: lightslategray;
+  background-color:white;
   width: 100%;
   padding-left: 50px;
   padding-right: 50px;
