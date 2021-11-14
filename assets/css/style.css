@@ -29,46 +29,47 @@ body {
   /* logo */
   #logo {
     float: left;
-    padding-left: 100px;
 }
 
-  /* navigation menu */
-  #menu {
-    font-size: 80%;
-    letter-spacing: 5px;
-    background-color: #fff;
-    vertical-align: top;
-    padding: 20px;
-  }
+  /* navigation links */
+#menu {
+  font-size: 80%;
+  letter-spacing: 4px;
+  background-color: #fff;
+  vertical-align: top;
+}
 
-  #menu,
+#menu,
 menu ul {
   display: flex;
   justify-content: flex-end;
   flex-direction: row;
   flex-wrap: wrap;
   width: 100%;
-  padding-left: 0;
+  padding-left: 10;
 }
 
 #menu,
-#menu li {list-style-type: none;
-    margin-right: 40px;}
+#menu li {
+  list-style-type: none;
+  margin-right: 10px;
 
-    #menu a {
-        text-decoration: none;
-        color: inherit;
-      }
-      
-      #menu a:hover {
-        border: 1px solid #85C5D4;
-        padding: 10px;
-      }
-      
-      .active {
-        border: 1px solid #85C5D4;
-        padding: 10px;
-      }
+}
+
+#menu a {
+  text-decoration: none;
+  color: inherit;
+}
+
+#menu a:hover {
+  border: 1px solid #85C5D4;
+  padding: 10px;
+}
+
+.active {
+  border: 1px solid #85C5D4;
+  padding: 10px;
+}
 
       /* hero image */
 
@@ -149,6 +150,14 @@ width: 24vw;
 
 /* footer */
 
+#footer-container {
+background-color: lightblue;
+padding-left: 10px;
+padding-right: 10px;
+padding-top: 10px;
+}
+
+
 .emailSignup {
   display: block;
   background: #0C3C60;
@@ -221,22 +230,50 @@ width: 24vw;
 /* un sustainable development goals */
 
 #un-container {
-  background-color: rgb(56, 74, 80);
-  padding-left: 50px;
-  padding-right: 50px;
-  padding-top: 50px;
-  }
-
-.un-flex-grid {
-  display: block;
-  margin-left: 50px;
-  margin-right: auto;
+background-color: rgb(56, 74, 80);
+padding-left: 50px;
+padding-right: 50px;
 }
 
-.un-img {
+.un-flex-grid {
+width: 10vw;
+}
+
+.un-flex-grid, a {
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+width: 10vw;
+margin-bottom: 0;
+}
+/* .un-img {
   float: left;
   width: 16%;
   padding-left: 5px;
   padding-top: 5px;
   padding-bottom: 5px;
-}
+} */
+
+
+/* rewilding */
+#awareness-container {
+  background-color: lightslategray;
+  width: 100%;
+  padding-left: 50px;
+  padding-right: 50px;
+  overflow: hidden; 
+  }
+  
+  #title {
+  padding-top: 30px;
+  padding-left: 50px;
+  width: 25%;
+  float: left;
+  }
+          
+  #solution {
+  padding-top: 30px;
+  padding-right: 150px;
+  width: 50%;
+  float: right;
+  }
