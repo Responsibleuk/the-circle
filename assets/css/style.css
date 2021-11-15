@@ -300,6 +300,12 @@ padding-right: 50px;
 }
 
 /* rewilding */
+#hero-image-rewilding {
+  height: 400px;
+  width: 100%;
+  overflow: hidden;
+  background: url(../images/hero-images/elephant-rewild.jpg) no-repeat center center;
+}
 
 #awareness-container {
   background-color:white;
