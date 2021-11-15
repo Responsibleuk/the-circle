@@ -105,7 +105,7 @@ padding-top: 50px;
 /* who we are what we do */
 
 #who-and-what-container {
-background-color: white;
+background-color: red;
 width: 100%;
 padding-left: 50px;
 padding-right: 60px;
@@ -113,6 +113,7 @@ overflow: hidden;
 }
 
 #who {
+background-color: red;
 padding-top: 30px;
 padding-left: 50px;
 width: 25%;
@@ -120,18 +121,20 @@ float: left;
 }
         
 #what {
+  background-color: red;  
 padding-top: 30px;
 padding-right: 150px;
 width: 50%;
 float: right;
 }
 
-/* Awareness */
+/* awareness */
 
-/*  */
+/* awareness image with text over */
 #awareness-image-container {
-  background-color: lightblue;       
-  padding-left: 62px;
+  background-color: white;       
+  padding-left: 25px;
+  padding-right: 70px;
   }
 
 .awareness-intro { 
@@ -150,19 +153,41 @@ float: right;
   color: white; 
   font: bold 24px/45px Helvetica, Sans-Serif; 
   letter-spacing: -1px;  
-  background: rgb(0, 0, 0); /* fallback color */
+  background: rgb(0, 0, 0); 
   background: rgba(0, 0, 0, 0.7);
-  padding: 10px; 
+  padding: 20px; 
 }
 .awareness-intro-h span.spacer {
-  padding:0 5px;
+  padding:0 10px;
 }
+
+/* awareness introduction image caption */
+
+#awareness-intro-image {
+  display: flex;
+  flex-flow: row;
+  justify-content: flex-start;
+}
+
+#awareness-intro-image-caption {
+  align-self: flex-end;
+  border-left: 1px solid rgb(15, 6, 54);
+  padding-left: 1em;
+  margin-left: 1em;
+  width: 25vw;
+}
+
+
+
+
+
+/* awareness section */
 
 .flex-container {
 display: flex;
 justify-content: flex-start;
 flex-direction: row;
-background-color: orange;       
+background-color: white;       
 padding-left: 60px;
 }
 
@@ -178,10 +203,12 @@ margin-bottom: 0;
 }
       
 .awareness-figure {
-  background-color: antiquewhite;
+background-color: white;
 display: flex;
 flex-flow: column;
 width: 24vw;
+/* padding-left: 10px;
+padding-right: 10px; */
 }
 
 .awareness-caption {
