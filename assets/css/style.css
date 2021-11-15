@@ -170,7 +170,7 @@ float: right;
 }
 
 #awareness-intro-image-caption {
-  align-self: flex-end;
+  align-self: flex-start;
   border-left: 1px solid rgb(15, 6, 54);
   padding-left: 1em;
   margin-left: 1em;
@@ -190,12 +190,6 @@ flex-direction: row;
 background-color: white;       
 padding-left: 60px;
 }
-
-      /* figure {
-        display: flex;
-        flex-flow: row;
-        justify-content: flex-start;
-      } */
       
 .awareness-image {
 width: 24vw;
@@ -213,7 +207,8 @@ padding-right: 10px; */
 
 .awareness-caption {
 align-self: flex-start;
-border-bottom: 2px solid rgb(169, 13, 94);
+text-align: center;
+border-bottom: 2px solid #0C3C60;
 font-size: 80%;
 width: 24vw;
 }
