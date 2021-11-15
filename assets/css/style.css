@@ -105,7 +105,7 @@ padding-top: 50px;
 /* who we are what we do */
 
 #who-and-what-container {
-background-color: red;
+background-color: white;
 width: 100%;
 padding-left: 50px;
 padding-right: 60px;
@@ -113,7 +113,7 @@ overflow: hidden;
 }
 
 #who {
-background-color: red;
+background-color: white;
 padding-top: 30px;
 padding-left: 50px;
 width: 25%;
@@ -121,7 +121,7 @@ float: left;
 }
         
 #what {
-  background-color: red;  
+background-color: white;  
 padding-top: 30px;
 padding-right: 150px;
 width: 50%;
@@ -220,7 +220,8 @@ width: 24vw;
 /* footer */
 
 #footer-container {
-background-color: lightblue;
+background-color:#0C3C60;
+margin-top: 10px;
 padding-left: 10px;
 padding-right: 10px;
 padding-top: 10px;
@@ -411,47 +412,30 @@ padding-right: 50px;
     width: 25vw;
   }
 
-  /* who we are what we do */
-  /* need to make specific for hope */
+  /* the team */
 
-#who-and-what-container {
-  background-color: lightslategray;
+  #about-container {
+    background-color:white;
   width: 100%;
   padding-left: 50px;
   padding-right: 50px;
   overflow: hidden; 
   }
-  
-  #who {
-  padding-top: 30px;
-  padding-left: 50px;
-  width: 25%;
-  float: left;
-  }
-          
-  #what {
-  padding-top: 30px;
-  padding-right: 150px;
-  width: 50%;
-  float: right;
-  }
-
-  /* the team */
 
 
   .about-section{
-    background-image: url(../images/home-page/meditation.jpg); no-repeat left;
-    background-size: 55%;
+    background-image: url(../images/home-page/the-team.jpg);
+    background-size: 100%;
     background-color: #fdfdfd;
     overflow: hidden;
     padding: 100px 0;
 }
 
 .inner-container{
-    width: 55%;
+    width: 35%;
     float: right;
     background-color: #fdfdfd;
-    padding: 150px;
+    padding: 25px;
 }
 
 .inner-container h1{
@@ -465,14 +449,8 @@ padding-right: 50px;
     color: #545454;
     line-height: 30px;
     text-align: justify;
-    margin-bottom: 40px;
-}
-
-.skills{
-    display: flex;
-    justify-content: space-between;
-    font-weight: 700;
-    font-size: 13px;
+    margin-bottom: 10px;
+    padding-right: 100px;
 }
 
 @media screen and (max-width:1200px){
@@ -494,5 +472,4 @@ padding-right: 50px;
         padding: 0;
     }
     .inner-container{
-        padding: 60px;
-    }
+        padding: 30px;}
