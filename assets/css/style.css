@@ -105,6 +105,16 @@ menu ul {
   background: url(../images/hero-images/hero-home-page.jpg) no-repeat center center;
 }
 
+#hero-image-text { 
+position: absolute; 
+top: 200px; 
+left: 500px; 
+/* width: 100%;  */
+letter-spacing: 4px;  
+background: rgba(255, 255, 255, 0.7);
+padding: 10px; 
+}
+
 /* introduction */
 
 .introduction-container {
