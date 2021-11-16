@@ -39,17 +39,30 @@ header {
   padding-left: 100px;
 }  
 
-  /* logo */
-  #logo {
-    float: left;
+/* #nav-container {
+  background-color:orange;
+  height: 50px;
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-top: 0px;
+  } */
+
+/* logo */
+#logo {
+float: left;
+position: absolute;
+top: 0px;
 }
 
-  /* navigation links */
+/* navigation links */
+
+
 #menu {
   font-size: 80%;
   letter-spacing: 4px;
   background-color: #fff;
   vertical-align: top;
+  padding: 20px;
 }
 
 #menu,
@@ -86,7 +99,7 @@ menu ul {
 /* hero image */
 
 #hero-image {
-  height: 400px;
+  height: 800px;
   width: 100%;
   overflow: hidden;
   background: url(../images/hero-images/hero-home-page.jpg) no-repeat center center;
@@ -96,9 +109,8 @@ menu ul {
 
 .introduction-container {
 background-color: white;
-padding-left: 100px;
-padding-right: 100px;
-padding-top: 50px;
+padding-left: 105px;
+padding-right: 120px;
 }
 
 
@@ -151,14 +163,10 @@ float: right;
 
 .awareness-intro-h span { 
   color: white; 
-  font: bold 24px/45px Helvetica, Sans-Serif; 
-  letter-spacing: -1px;  
-  background: rgb(0, 0, 0); 
+  /* font: bold 24px/45px Helvetica, Sans-Serif;  */
+  letter-spacing: 1px;  
   background: rgba(0, 0, 0, 0.7);
-  padding: 20px; 
-}
-.awareness-intro-h span.spacer {
-  padding:0 10px;
+  padding: 10px; 
 }
 
 /* awareness introduction image caption */
@@ -171,10 +179,10 @@ float: right;
 
 #awareness-intro-image-caption {
   align-self: flex-start;
-  border-left: 1px solid rgb(15, 6, 54);
   padding-left: 1em;
   margin-left: 1em;
   width: 25vw;
+  padding-right: 10px;
 }
 
 
@@ -324,7 +332,7 @@ padding-right: 50px;
 
 /* rewilding */
 #hero-image-rewilding {
-  height: 400px;
+  height: 800px;
   width: 100%;
   overflow: hidden;
   background: url(../images/hero-images/elephant-rewild.jpg) no-repeat center center;
@@ -415,9 +423,8 @@ padding-right: 50px;
   /* the team */
 
   #about-container {
-    background-color:white;
+  background-color:white;
   width: 100%;
-  padding-left: 50px;
   padding-right: 50px;
   overflow: hidden; 
   }
@@ -453,7 +460,9 @@ padding-right: 50px;
     padding-right: 100px;
 }
 
-@media screen and (max-width:1200px){
+/* media rules */
+
+/* @media screen and (max-width:1200px){
     .inner-container{
         padding: 80px;
     }
@@ -472,4 +481,4 @@ padding-right: 50px;
         padding: 0;
     }
     .inner-container{
-        padding: 30px;}
+        padding: 30px;} */
