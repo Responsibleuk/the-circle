@@ -197,7 +197,7 @@ padding: 10px;
     }
 
 
-
+/* join us */
 #hero-image-join {
   height: 800px;
   width: 100%;
@@ -499,27 +499,6 @@ padding-right: 50px;
 }
 
 
-  /* hope */
-  /* need to make specific */
-  .hope-figure {
-    display: flex;
-    flex-flow: row;
-    justify-content: flex-start;
-  }
-  
-  .hope-img {
-    width: 30vw;
-    margin-bottom: 0;
-  }
-  
-  .hope-figcaption {
-    align-self: flex-start;
-    border-left: 1em solid rgb(169, 13, 94);
-    padding-left: 1em;
-    margin-left: 2em;
-    width: 25vw;
-  }
-
   /* the team */
 
   #about-container {
@@ -559,6 +538,98 @@ padding-right: 50px;
     margin-bottom: 10px;
     padding-right: 100px;
 }
+
+/* footprint page styling */
+
+#footprint-container {
+  background-color: white;
+  width: 100%;
+  overflow: hidden;
+  padding-left: 50px; 
+  }
+  
+  #footprint-main {
+  background-color: white;
+  padding-top: 30px;
+  padding-left: 50px;
+  width: 50%;
+  float: left;
+  }
+          
+  #footprint-body {
+  background-color: white;  
+  padding-top: 30px;
+  padding-left: 50px;
+  width: 50%;
+  float: left;
+  }
+
+  #sink-image {
+    width: 1000px;
+    height: auto;
+    padding-left: 100px;
+  } 
+
+  /* hope */
+  /* need to make specific */
+
+  #net-zero-neutral {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+    width: 22vw;
+    background-color: white;       
+    padding-top: 50px;
+    padding-left: 25px;
+    }
+  
+  #hope-figure {
+    display: flex;
+    flex-flow: row;
+    justify-content: flex-start;
+  }
+
+    #footprint-container {
+      background-color: white;
+      width: 100%;
+      overflow: hidden;
+      padding-left: 50px; 
+      }
+      
+      #footprint-main {
+      background-color: white;
+      padding-top: 30px;
+      padding-left: 50px;
+      width: 55%;
+      float: left;
+      }
+              
+      #footprint-body {
+      background-color: white;  
+      padding-top: 30px;
+      padding-left: 50px;
+      width: 55%;
+      float: left;
+      }
+    
+      #sink-image {
+        width: 1100px;
+        height: auto;
+        padding-left: 100px;
+      } 
+
+      /* offseting section */
+
+
+  
+          
+    
+          
+    
+
+
+
+
 
 /* media rules */
 
