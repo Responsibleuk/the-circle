@@ -918,8 +918,7 @@ padding-left: 175px;
        
         /* Colored sections */
         
-        .st-color,
-        .st-deco{
+        .st-color{
           background: #0C3C60;
         }
         .st-color [data-icon]:after {
