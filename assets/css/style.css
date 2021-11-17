@@ -624,8 +624,50 @@ padding-right: 50px;
   
           
     
+
+/* Container for the text that expands on hover */
+.expanded-text {
+    width: 100%;
+}
+/* Longer name hidden by default  */
+span.longer-name{
+ display:none;
+}
+/* On hover, hide the short name */
+.expanded-text:hover span.short-name{
+ display:none;
+}
+/* On hover, display the longer name.  */
+.expanded-text:hover span.longer-name{
+ display:block;
+}
+/* Decorate the text */
+.text-offset {
+  color: black;
+  font-size: 24px;
+}
+
           
-    
+ 
+#offsetting-container {
+  background-color: rgb(56, 74, 80);
+  padding-left: 50px;
+  padding-right: 50px;
+  }
+  
+  .offsetting-flex-grid {
+    display: block;
+    margin-left: 50px;
+    margin-right: auto;
+  }
+  
+
+  
+  .un-img-horizontal {
+    float: left;
+    width: 19%;
+    padding-bottom: 21px;
+  }
 
 
 
