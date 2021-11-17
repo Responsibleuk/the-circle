@@ -261,7 +261,7 @@ float: right;
   width: 100%; 
 }
 
-.awareness-intro-h span { 
+.awareness-intro-h text { 
   color: white; 
   /* font: bold 24px/45px Helvetica, Sans-Serif;  */
   letter-spacing: 1px;  
@@ -284,10 +284,6 @@ float: right;
   width: 25vw;
   padding-right: 10px;
 }
-
-
-
-
 
 /* awareness section */
 
@@ -589,12 +585,7 @@ padding-right: 50px;
     justify-content: flex-start;
   }
 
-    #footprint-container {
-      background-color: white;
-      width: 100%;
-      overflow: hidden;
-      padding-left: 50px; 
-      }
+  
       
       #footprint-main {
       background-color: white;
@@ -618,59 +609,60 @@ padding-right: 50px;
         padding-left: 100px;
       } 
 
-      /* offseting section */
+/* offseting section */
+#offsetting-introduction-container {
+background-color: white;
+padding-left: 105px;
+padding-right: 120px;
+}
 
+/* offset image with text over */
+
+.offsetting-container {
+display: flex;
+justify-content: flex-start;
+flex-direction: row;
+background-color: white;
+padding-left: 175px;     
+}
+
+.offset-image { 
+  width: 25vw; 
+  margin-bottom: 5px;
+  margin-top: 0;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.offset-intro { 
+  position: relative; 
+  margin-bottom: 0;
+  margin-top: 0;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.offset-intro-h { 
+  position: absolute; 
+  bottom: 50px; 
+}
+
+.offset-intro-h figcaption { 
+  color: white; 
+  letter-spacing: 1px;  
+  font-size: 15px;
+  background: rgba(0, 0, 0, 0.7);
+  padding: 10px; 
+}
 
   
           
     
 
-/* Container for the text that expands on hover */
-.expanded-text {
-    width: 100%;
-}
-/* Longer name hidden by default  */
-span.longer-name{
- display:none;
-}
-/* On hover, hide the short name */
-.expanded-text:hover span.short-name{
- display:none;
-}
-/* On hover, display the longer name.  */
-.expanded-text:hover span.longer-name{
- display:block;
-}
-/* Decorate the text */
-.text-offset {
-  color: black;
-  font-size: 24px;
-}
-
-          
- 
-#offsetting-container {
-  background-color: rgb(56, 74, 80);
-  padding-left: 50px;
-  padding-right: 50px;
-  }
-  
-  .offsetting-flex-grid {
-    display: block;
-    margin-left: 50px;
-    margin-right: auto;
-  }
-  
-
-  
-  .un-img-horizontal {
-    float: left;
-    width: 19%;
-    padding-bottom: 21px;
-  }
 
 
-
+  /* offsetting projects  */
+        
 
 
 /* media rules */
