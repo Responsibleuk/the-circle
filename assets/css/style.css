@@ -862,8 +862,55 @@ padding-left: 175px;
   padding: 10px; 
 }
 
+   /* lifestyle */
+
+   /* sustainability */
+
+   /* health */
+
+   /* diet */
+   /* the team */
+
+  #diet-about-container {
+    background-color:white;
+    width: 100%;
+    padding-right: 10px;
+    overflow: hidden; 
+    }
   
-          
+  
+    .diet-about-section{
+      background-image: url(../images/lifestyle/diet.jpg);
+      background-size: 100%;
+      background-color: #fdfdfd;
+      overflow: hidden;
+      padding: 100px 0;
+  }
+  
+  .diet-inner-container{
+    position: relative;
+    left: 650px;
+    /* top: 50px; */
+    width: 40%;
+    background-color: #fdfdfd;
+    padding: 20px;
+  }
+  
+  .diet-inner-container h1{
+      margin-bottom: 10px;
+      font-size: 30px;
+      font-weight: 900;
+  }
+  
+  .diet-text{
+      font-size: 13px;
+      color: #545454;
+      line-height: 30px;
+      text-align: justify;
+  }
+  
+
+  
     
 
 
