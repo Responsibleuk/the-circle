@@ -78,6 +78,7 @@ menu ul {
 #menu,
 #menu li {
   list-style-type: none;
+  font-size: large;
   margin-right: 10px;
 
 }
@@ -153,20 +154,28 @@ padding: 10px;
   height: 800px;
   width: 100%;
   overflow: hidden;
-  background: url(../images/hero-images/protest-hero.jpg) no-repeat center center;
+  background: linear-gradient(rgba(0, 0, 0, .8), rgba(0, 0, 0, .8)), url(../images/hero-images/protest-hero.jpg) no-repeat center center;
 }
 
 #hero-image-hope-text { 
   position: absolute; 
   top: 175px; 
   color: #fdfdfd;
-  left: 100px; 
-  font-size: 40px;
+  left: 200px; 
+  font-size: 25px;
   letter-spacing: 4px;  
-  background: rgba(0,0,0, 0.7);
   padding: 10px; 
   }
 
+  #hero-image-hope-text-large { 
+    position: absolute; 
+    top: 175px; 
+    color: #fdfdfd;
+    left: 100px; 
+    font-size: 55px;
+    letter-spacing: 4px;  
+    padding: 10px; 
+    }
   
 
   /* lifestyle hero image */
