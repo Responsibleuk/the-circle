@@ -400,9 +400,52 @@ padding-top: 10px;
   cursor: pointer;
 }
 
-/* Hope */
+/* hope */
 
-/* the team */
+/* hope introduction */
+
+/* the protest */
+
+.hope-container {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: row;
+  background-color: white;       
+  padding-left: 0px;
+  }
+  
+        
+  .hope-image {
+  width: 16vw;
+  margin-bottom: 0;
+  border-radius: 50%;
+  }
+        
+  .hope-figure {
+  background-color: white;
+  display: flex;
+  flex-flow: column;
+  width: 14vw;
+  /* padding-left: 10px;
+  padding-right: 10px; */
+
+  }
+  
+  .hope-text { 
+    color: white; 
+    letter-spacing: 1px;  
+    font-size: 15px;
+    text-align: center;
+    padding-left: 25px;
+  }
+
+  
+
+
+
+  
+
+
 
 #protest-about-container {
   background-color:white;
@@ -534,7 +577,7 @@ padding-right: 50px;
 
 .tech-figcaption {
   align-self: flex-start;
-  border-left: 1px solid rgb(169, 13, 94);
+  border-left: 1px solid lightcoral;
   padding-left: 1em;
   margin-left: 1em;
   width: 45vw;
