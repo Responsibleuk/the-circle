@@ -400,10 +400,52 @@ padding-top: 10px;
   cursor: pointer;
 }
 
+/* Hope */
+
+/* the team */
+
+#protest-about-container {
+  background-color:white;
+  width: 83%;
+  padding-left: 100px;
+  overflow: hidden; 
+  }
+
+
+  .protest-about-section{
+    background-image: url(../images/hope/climate-strike.jpg);
+    background-size: 100%;
+    background-color: #fdfdfd;
+    overflow: hidden;
+    padding: 100px 0;
+}
+
+.protest-inner-container{
+    width: 35%;
+    float: left;
+    background-color: #fdfdfd;
+    padding: 25px;
+}
+
+.protest-inner-container h1{
+    margin-bottom: 30px;
+    font-size: 30px;
+    font-weight: 900;
+}
+
+.protest-text{
+    font-size: 13px;
+    color: #545454;
+    line-height: 30px;
+    text-align: justify;
+    margin-bottom: 10px;
+    padding-right: 100px;
+}
+
 /* un sustainable development goals */
 
 #un-container {
-background-color: rgb(56, 74, 80);
+background-color:white;
 padding-left: 50px;
 padding-right: 50px;
 }
@@ -426,7 +468,81 @@ padding-right: 50px;
   padding-bottom: 21px;
 }
 
+/* cop26 */
+
+#cop-about-container {
+  background-color:white;
+  width: 83%;
+  padding-left: 100px;
+  overflow: hidden; 
+  }
+
+
+  .cop-about-section{
+    background-image: url(../images/hope/cop26.jpg);
+    background-size: 100%;
+    background-color: #fdfdfd;
+    overflow: hidden;
+    padding: 100px 0;
+}
+
+.cop-inner-container{
+    width: 35%;
+    float: left;
+    background-color: #fdfdfd;
+    padding: 25px;
+}
+
+.cop-inner-container h1{
+    margin-bottom: 30px;
+    font-size: 30px;
+    font-weight: 900;
+}
+
+.cop-text{
+    font-size: 13px;
+    color: #545454;
+    line-height: 30px;
+    text-align: justify;
+    margin-bottom: 10px;
+    padding-right: 100px;
+}
+
+/* technology */
+
+#hope-tech-container {
+  background-color:white;
+  padding-left: 50px;
+  padding-right: 50px;
+  }
+
+.tech-highlight {
+  color: #0C3C60;
+  padding-left: 50px;
+}
+
+.tech-figure {
+  display: flex;
+  flex-flow: row;
+  justify-content: flex-start;
+}
+
+.tech-img {
+  width: 35vw;
+  margin-bottom: 0;
+}
+
+.tech-figcaption {
+  align-self: flex-start;
+  border-left: 1px solid rgb(169, 13, 94);
+  padding-left: 1em;
+  margin-left: 1em;
+  width: 45vw;
+}
+
+
 /* rewilding */
+
 #hero-image-rewilding {
   height: 400px;
   width: 100%;
@@ -644,7 +760,7 @@ padding-left: 175px;
 
 .offset-intro-h { 
   position: absolute; 
-  bottom: 50px; 
+  top: 200px; 
 }
 
 .offset-intro-h figcaption { 
