@@ -130,15 +130,15 @@ padding: 10px;
 
   /* hero image footprint */
 #hero-image-footprint-text { 
-  position: absolute; 
+  position: absolute;
+  color: #fff; 
   text-align: center;
   font-weight: bold;
-  top: 500px; 
+  top: 300px; 
   left: 200px; 
   font-size: 35px;
   text-size-adjust: 300%;
   letter-spacing: 4px;  
-  background: rgba(255, 255, 255, 0.9);
   padding: 10px; 
 }
 
@@ -146,7 +146,7 @@ padding: 10px;
   height: 800px;
   width: 100%;
   overflow: hidden;
-  background: url(../images/hero-images/footprint-hero.jpg) no-repeat center center;
+  background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url(../images/hero-images/footprint-hero.jpg) no-repeat center center;
 }
 
 /* hero image hope */
@@ -159,7 +159,7 @@ padding: 10px;
 
 #hero-image-hope-text { 
   position: absolute; 
-  top: 175px; 
+  top: 375px; 
   color: #fdfdfd;
   left: 200px; 
   font-size: 25px;
@@ -169,7 +169,7 @@ padding: 10px;
 
   #hero-image-hope-text-large { 
     position: absolute; 
-    top: 175px; 
+    top: 375px; 
     color: #fdfdfd;
     left: 100px; 
     font-size: 55px;
@@ -183,7 +183,7 @@ padding: 10px;
   height: 800px;
   width: 100%;
   overflow: hidden;
-  background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .7)), url(../images/hero-images/fighting-hero.jpg) no-repeat center center;
+  background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .7)), url(../images/hero-images/lifestyle.jpg) no-repeat center center;
 }
   
   /* hero image text */
@@ -733,7 +733,7 @@ padding-right: 50px;
     font-weight: 900;
 }
 
-.text{
+.team-text{
     font-size: 13px;
     color: #545454;
     line-height: 30px;
@@ -865,12 +865,36 @@ padding-left: 175px;
    /* lifestyle */
 
    /* sustainability */
+  #sustainability-about-container {
+    background-color:white;
+    width: 100%;
+    padding-right: 10px;
+    overflow: hidden; 
+    }
+  
+    .sustainability-about-section{
+      background-image: url(../images/lifestyle/rainforest.jpg);
+      background-color: rgba(255, 255, 255,);
+      height: 800px;
+      overflow: hidden;
+      padding: 100px 0;
+  }
+  
+  .sustainability-inner-container{
+    position: relative;
+    left: 650px;
+    /* top: 50px; */
+    width: 40%;
+    background-color: rgb(255, 255, 255, 0.9);
+    padding-top: 2px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
 
    /* health */
 
    /* diet */
-   /* the team */
-
   #diet-about-container {
     background-color:white;
     width: 100%;
@@ -882,7 +906,7 @@ padding-left: 175px;
     .diet-about-section{
       background-image: url(../images/lifestyle/diet.jpg);
       background-size: 100%;
-      background-color: #fdfdfd;
+      background-color: rgba(255, 255, 255,);
       overflow: hidden;
       padding: 100px 0;
   }
@@ -892,8 +916,11 @@ padding-left: 175px;
     left: 650px;
     /* top: 50px; */
     width: 40%;
-    background-color: #fdfdfd;
-    padding: 20px;
+    background-color: rgb(255, 255, 255, 0.9);
+    padding-top: 2px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
   }
   
   .diet-inner-container h1{
@@ -910,6 +937,93 @@ padding-left: 175px;
   }
   
 
+
+   /* mind */
+   
+
+  #mind-about-container {
+    background-color:white;
+    width: 100%;
+    padding-right: 10px;
+    overflow: hidden; 
+    }
+  
+  
+    .mind-about-section{
+      background-image: url(../images/lifestyle/mindfulness.jpg);
+      background-size: 100%;
+      background-color: rgba(255, 255, 255,);
+      overflow: hidden;
+      padding: 100px 0;
+  }
+  
+  .mind-inner-container{
+    position: relative;
+    left: 150px;
+    /* top: 50px; */
+    width: 40%;
+    background-color: rgb(255, 255, 255, 0.9);
+    padding-top: 2px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  
+  .mind-inner-container h1{
+      margin-bottom: 10px;
+      font-size: 30px;
+      font-weight: 900;
+  }
+  
+  .mind-text{
+      font-size: 13px;
+      color: #545454;
+      line-height: 30px;
+      text-align: justify;
+  }
+
+  
+  /* diet */
+  #exercise-about-container {
+    background-color:white;
+    width: 100%;
+    padding-right: 10px;
+    overflow: hidden; 
+    }
+  
+  
+    .exercise-about-section{
+      background-image: url(../images/lifestyle/exercise.jpg);
+      background-size: 100%;
+      background-color: rgba(255, 255, 255,);
+      overflow: hidden;
+      padding: 100px 0;
+  }
+  
+  .exercise-inner-container{
+    position: relative;
+    left: 650px;
+    /* top: 50px; */
+    width: 40%;
+    background-color: rgb(255, 255, 255, 0.9);
+    padding-top: 2px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  
+  .exercise-inner-container h1{
+      margin-bottom: 10px;
+      font-size: 30px;
+      font-weight: 900;
+  }
+  
+  .exercise-text{
+      font-size: 13px;
+      color: #545454;
+      line-height: 30px;
+      text-align: justify;
+  }
   
     
 
