@@ -20,6 +20,7 @@ body {
   
   h3,
   h4 {
+    font-family: raleway, sans-serif;
     letter-spacing: 4px;
     color: #0C3C60;
     font-weight: bolder;
@@ -173,28 +174,29 @@ padding: 10px;
   height: 800px;
   width: 100%;
   overflow: hidden;
-  background: url(../images/hero-images/fighting-hero.jpg) no-repeat center center;
+  background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .7)), url(../images/hero-images/fighting-hero.jpg) no-repeat center center;
 }
-#hero-image-lifestyle-text { 
-  position: absolute; 
-  top: 125px; 
-  left: 100px; 
-  /* width: 100%;  */
-  letter-spacing: 4px;  
-  background: rgba(255, 255, 255, 0.7);
-  padding: 10px; 
-  }
   
   /* hero image text */
   #hero-image-lifestyle-text { 
     position: absolute; 
+    color: #fff;
     top: 175px; 
-    left: 100px; 
-    font-size: 50px;
+    left: 125px; 
+    font-size: 40px;
     letter-spacing: 4px;  
-    background: rgba(255, 255, 255, 0.7);
     padding: 10px; 
     }
+
+    #hero-image-lifestyle-text-main { 
+      position: absolute; 
+      color: #fff;
+      top: 175px; 
+      left: 100px; 
+      font-size: 120px;
+      letter-spacing: 4px;  
+      padding: 10px; 
+      }
 
 
 /* join us */
@@ -439,13 +441,12 @@ padding-top: 10px;
     padding-left: 25px;
   }
 
-  
-
-
-
-  
-
-
+  .hope-heading {
+    color: #fff;
+    font-weight: bolder;
+    padding: 20px;
+    background: linear-gradient(135deg, orange 50%, cyan);
+  }
 
 #protest-about-container {
   background-color:white;
@@ -582,7 +583,7 @@ padding-right: 50px;
   margin-left: 1em;
   width: 45vw;
 }
-
+/* awareness */
 
 /* rewilding */
 
@@ -592,6 +593,44 @@ padding-right: 50px;
   overflow: hidden;
   background: url(../images/hero-images/elephant-rewild.jpg) no-repeat center center;
 }
+
+/* education of girls */
+
+#hero-image-education {
+  height: 400px;
+  width: 100%;
+  overflow: hidden;
+  background: url(../images/hero-images/education-of-girls.jpg) no-repeat center center;
+}
+
+#hero-image-waste {
+  height: 400px;
+  width: 100%;
+  overflow: hidden;
+  background: url(../images/hero-images/waste.jpg) no-repeat center center;
+}
+
+#hero-image-building {
+  height: 400px;
+  width: 100%;
+  overflow: hidden;
+  background: url(../images/hero-images/airconditioning-units.jpg) no-repeat center center;
+}
+
+#hero-image-climate-justice {
+  height: 400px;
+  width: 100%;
+  overflow: hidden;
+  background: url(../images/hero-images/extreme-drought.jpg) no-repeat center center;
+}
+
+#hero-image-renewables {
+  height: 400px;
+  width: 100%;
+  overflow: hidden;
+  background: url(../images/hero-images/windfarm.jpg) no-repeat center center;
+}
+
 
 #awareness-container {
   background-color:white;
