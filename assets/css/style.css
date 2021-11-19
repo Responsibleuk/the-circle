@@ -1005,7 +1005,7 @@ padding-left: 175px;
   
   
     .exercise-about-section{
-      background-image: url(../images/lifestyle/exercise.jpg)no-repeat center center;
+      background-image: url(../images/lifestyle/exercise.jpg);
       background-size: 100%;
       background-color: rgba(255, 255, 255,);
       overflow: hidden;
