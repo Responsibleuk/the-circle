@@ -286,13 +286,15 @@ float: right;
   display: flex;
   flex-flow: row;
   justify-content: flex-start;
+  width: 80vw;
+  height: auto;
 }
 
 #awareness-intro-image-caption {
   align-self: flex-start;
   padding-left: 1em;
   margin-left: 1em;
-  width: 25vw;
+  width: 40vw;
   padding-right: 10px;
 }
 
@@ -324,7 +326,7 @@ padding-right: 10px; */
 align-self: flex-start;
 text-align: center;
 border-bottom: 2px solid #0C3C60;
-font-size: 80%;
+font-size: 100%;
 width: 24vw;
 }
 
@@ -603,13 +605,13 @@ padding-right: 50px;
 
 #hope-tech-container {
   background-color:white;
-  padding-left: 50px;
+  padding-left: 100px;
   padding-right: 50px;
   }
 
 .tech-highlight {
   color: #0C3C60;
-  padding-left: 50px;
+  /* padding-left: 50px; */
 }
 
 .tech-figure {
@@ -619,8 +621,9 @@ padding-right: 50px;
 }
 
 .tech-img {
-  width: 35vw;
+  width: 40vw;
   margin-bottom: 0;
+  margin-left: 0;
 }
 
 .tech-figcaption {
@@ -628,7 +631,7 @@ padding-right: 50px;
   border-left: 1px solid lightcoral;
   padding-left: 1em;
   margin-left: 1em;
-  width: 45vw;
+  width: 35vw;
 }
 /* awareness */
 
