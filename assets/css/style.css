@@ -1312,6 +1312,7 @@ height: 30vw;
     padding: 100px 0;
   }
 
-  /* registration form */
-
+  @media only screen and (max-width: 479px) {
+    .bg-change{background-image:none !important;background-color:#222222 !important;}
+    }
   
