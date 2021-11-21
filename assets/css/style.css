@@ -1192,7 +1192,7 @@ padding-left: 175px;
 
 /* mindset */ 
 
-.mindset-about-section{
+#mindset-about-section{
   background-image: url(../images/lifestyle/mindset.jpg);
  background-size: 100%;
   background-color: rgba(255, 255, 255,);
@@ -1217,7 +1217,17 @@ margin-bottom: 0;
   background-color: rgb(218, 218, 236);
 }
 
-
+article {
+  font-size: 0; /*fix white space*/
+}
+article > section {
+  font-size: 16px;
+  display: inline-block;
+  width: 30%;
+  border: 1px outset black;
+  padding: 30px;
+  box-sizing: border-box;
+}
 
 
 
