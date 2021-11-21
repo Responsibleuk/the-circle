@@ -1141,6 +1141,24 @@ padding-left: 175px;
           padding-bottom: 1vw;
         }
 
+        /* coaching */
+
+        .coaching ul {
+          display: flex;
+          flex-wrap: wrap;
+          padding-left: 50px;
+        }
+        
+        .coaching ul li {
+          text-align: center;
+          list-style: none;
+          flex: 0 0 22%;
+          padding-left: 4vw;
+          padding-right: 4vw;
+          padding-top: 1vw;
+          padding-bottom: 1vw;
+        }
+
         
 
         #method-container {
