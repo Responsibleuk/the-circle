@@ -213,7 +213,7 @@ padding: 10px;
   height: 800px;
   width: 100%;
   overflow: hidden;
-  background: url(../images/hero-images/collective-join-us.jpg) no-repeat center center;
+  background:linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .7)), url(../images/hero-images/collective-join-us.jpg) no-repeat center center;
 }
 
 /* introduction */
@@ -1146,17 +1146,14 @@ padding-left: 175px;
         .coaching ul {
           display: flex;
           flex-wrap: wrap;
-          padding-left: 50px;
         }
         
         .coaching ul li {
           text-align: center;
           list-style: none;
-          flex: 0 0 22%;
-          padding-left: 4vw;
-          padding-right: 4vw;
-          padding-top: 1vw;
-          padding-bottom: 1vw;
+          display: inline-block;
+          width: 15vw;
+          margin: 5vw;
         }
 
         
