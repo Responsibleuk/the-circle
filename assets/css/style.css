@@ -244,6 +244,7 @@ padding: 10px;
     letter-spacing: 4px;  
     padding: 10px; 
     }
+    
     #hero-image-coaching-text h2{
     text-align: center;}
 
@@ -1337,13 +1338,20 @@ height: 30vw;
     .bg-change{background-image:none !important;background-color:#222222 !important;}
     }
   
-    /* diet */
+    /* coaching */
  #coaching-about-container {
   background-color:white;
   width: 85%;
   padding-right: 10px;
   overflow: hidden; 
   }
+
+  .coaching-about-container {
+    background-color:white;
+    width: 85%;
+    padding-right: 10px;
+    overflow: hidden; 
+    }
 
 
   .coaching-about-section{
@@ -1378,3 +1386,39 @@ height: 30vw;
     line-height: 30px;
     text-align: justify;
 }
+
+/* coaching */
+#life-coaching-about-container {
+background-color:white;
+width: 85%;
+padding-right: 10px;
+overflow: hidden; 
+}
+
+
+.life-coaching-about-section{
+background-image: url(../images/hope/coaching.png);
+background-size: 100%;
+background-color: rgba(255, 255, 255,);
+overflow: hidden;
+padding: 100px 0;
+}
+
+.life-coaching-inner-container{
+position: relative;
+left: 200px;
+/* top: 50px; */
+width: 60%;
+background-color: rgb(255, 255, 255, 0.9);
+padding-top: 2px;
+padding-bottom: 10px;
+padding-left: 20px;
+padding-right: 20px;
+}
+
+.life-coaching-inner-container h1{
+    margin-bottom: 10px;
+    font-size: 30px;
+    font-weight: 900;
+}
+
