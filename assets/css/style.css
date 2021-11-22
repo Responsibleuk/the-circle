@@ -1346,11 +1346,12 @@ height: 30vw;
   overflow: hidden; 
   }
 
-  .coaching-about-container {
+  #coaching-about-container-two {
     background-color:white;
     width: 85%;
     padding-right: 10px;
     overflow: hidden; 
+    padding-left: 100px;
     }
 
 
@@ -1393,11 +1394,12 @@ background-color:white;
 width: 85%;
 padding-right: 10px;
 overflow: hidden; 
+padding-left: 100px;
 }
 
 
 .life-coaching-about-section{
-background-image: url(../images/hope/coaching.png);
+background-image: url(../images/hope/lifecoaching.jpg);
 background-size: 100%;
 background-color: rgba(255, 255, 255,);
 overflow: hidden;
