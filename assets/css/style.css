@@ -210,7 +210,7 @@ padding: 10px;
 
 /* join us */
 #hero-image-join {
-  height: 250px;
+  height: 300px;
   width: 100%;
   overflow: hidden;
   background:linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .7)), url(../images/hero-images/collective-join-us.jpg) no-repeat center center;
@@ -226,43 +226,26 @@ padding: 10px;
   padding: 10px; 
   }
 
-  /* join us */
-#hero-image-coaching {
-  height: 800px;
-  width: 100%;
-  overflow: hidden;
-  background:linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .7)), url(../images/hero-images/coaching.jpg) no-repeat center center;
-}
-
-#hero-image-coaching-text { 
-  position: absolute;
-  width: 60vw;
-  height: auto;
-  background-color:rgba(255, 255, 255, .8);
-  padding-left: 20px;
-  padding-right: 20px;
-  color: #0C3C60;
-  top: 20vw; 
-  left: 20vw; 
-  font-size: 20px;
-  letter-spacing: 4px;  
-
+  /* coaching hero */
+  #hero-image-coaching {
+    height: 800px;
+    width: 100%;
+    overflow: hidden;
+    background:linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .7)), url(../images/hero-images/coaching.jpg) no-repeat center center;
   }
-
-  /* #hero-image-coaching-text h2 { 
-    position: relative;
-    width: 400px;
-    height: auto;
-    background-color: black;
-    padding-left: 20px;
-    padding-right: 20px;
-   
-    color: #fff;
-    top: 75px; 
-    left: 100px; 
+  
+  #hero-image-coaching-text {
+    background-color: rgb(255, 255, 255, 0.9);
+    width: 60vw;
+    position: absolute; 
+    top: 375px; 
+    left: 20vw; 
     font-size: 20px;
     letter-spacing: 4px;  
-    } */
+    padding: 10px; 
+    }
+    #hero-image-coaching-text h2{
+    text-align: center;}
 
 /* introduction */
 
@@ -308,19 +291,19 @@ float: right;
   padding-right: 70px;
   }
 
-#awareness-intro { 
+.awareness-intro { 
   position: relative; 
   width: 100%; 
 }
 
-#awareness-intro-h { 
+.awareness-intro-h { 
   position: absolute; 
   top: 200px; 
   left: 30px; 
   width: 100%; 
 }
 
-#awareness-intro-h h3 { 
+.awareness-intro-h h2 { 
   color: white; 
   /* font: bold 24px/45px Helvetica, Sans-Serif;  */
   letter-spacing: 1px;  
@@ -728,7 +711,6 @@ padding-right: 50px;
   overflow: hidden;
   background: url(../images/hero-images/windfarm.jpg) no-repeat center center;
 }
-
 
 
 #awareness-container {
@@ -1355,28 +1337,28 @@ height: 30vw;
     .bg-change{background-image:none !important;background-color:#222222 !important;}
     }
   
- /* diet */
- #diet-about-container {
+    /* diet */
+ #coaching-about-container {
   background-color:white;
-  width: 100%;
+  width: 85%;
   padding-right: 10px;
   overflow: hidden; 
   }
 
 
-  .diet-about-section{
-    background-image: url(../images/lifestyle/diet.jpg);
+  .coaching-about-section{
+    background-image: url(../images/join-us/manny-and-freddy.jpg);
     background-size: 100%;
     background-color: rgba(255, 255, 255,);
     overflow: hidden;
     padding: 100px 0;
 }
 
-.diet-inner-container{
+.coaching-inner-container{
   position: relative;
-  left: 650px;
+  left: 200px;
   /* top: 50px; */
-  width: 40%;
+  width: 60%;
   background-color: rgb(255, 255, 255, 0.9);
   padding-top: 2px;
   padding-bottom: 10px;
@@ -1384,13 +1366,13 @@ height: 30vw;
   padding-right: 20px;
 }
 
-.diet-inner-container h1{
+.coaching-inner-container h1{
     margin-bottom: 10px;
     font-size: 30px;
     font-weight: 900;
 }
 
-.diet-text{
+.coaching-text{
     font-size: 13px;
     color: #545454;
     line-height: 30px;
