@@ -213,6 +213,9 @@ Code
 Favicon icon code
 https://www.codegrepper.com/code-examples/html/%3Clink+rel%3D%22icon%22+type%3D%22image%2Fpng%22+href%3D%22assets%2Fimg%2Ffavicon.png%22%3E
 
+navigation responsive
+https://codepen.io/victorcopque/pen/OVxRbq
+
 About us styling
 https://www.youtube.com/watch?v=8kS1B5iaBmg
 
