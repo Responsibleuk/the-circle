@@ -1,6 +1,11 @@
 The Circle
 
-The Circle aims to inform, educate and challenge the way we think helping to create a new collective consciousness that is needed to save our planet. We simplify the foundations of sustainability, explain the facts but also inspire people into taking action and direct them to the relevant organisations that they can get involved with
+The Circle aims to inform, educate and challenge the way we think helping to create a new collective consciousness that is needed to save our planet. We simplify the foundations of sustainability, explain the facts but also inspire people into taking action. The circle offers life coaching for individuals who want to not only become more sustainable but do it in such a way that it makes significant improvements in their own lives helping them to be healthier, happier and more successful.
+
+Mission
+Our mission is to create a global wellness community around the ideas and practices of sustainability, simplicity and resilience.
+
+Our first of it's kind sustainabile life strategy aims to not only bring the earth back to life, but also bring ourselves back to life, bringing our essence, our spirit, our sense of purpose back to life. It’s about bringing meaning to our lives.
 
 Features
 This website is for anybody who wants to learn more about sustainability and take action to making our planet more sustainable.
@@ -8,7 +13,8 @@ This website is for anybody who wants to learn more about sustainability and tak
 Existing Features
 Navigation Bar
 
-Featured on all three pages, the full responsive navigation bar includes links to the Logo, Home page, Action, Inspiration, Awareness and The Truth page and is identical in each page to allow for easy navigation.
+Featured on all ten pages, the full responsive navigation bar includes links to the Logo, Home, Footprint, Inspiration, Awareness and The Truth page and is identical in each page to allow for easy navigation.
+
 This section will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button.
 The landing page image
 
@@ -17,7 +23,7 @@ This section introduces the user to The Circle with a bold image of melting pola
 Who we are and what we do
 
 Awareness section
-The user will also see six areas of sustainability, climate justice, waste, greenwashing, education of girls, rewilding and lifestyle.
+The user will also see six areas of sustainability, climate justice, waste, renewable energy, education of girls, rewilding and lifestyle.
 The user will be able to click each image and will go through to a page containing more information about their choosen subject.
 Facts section The user will be able to read a list of facts the highlight the importance of sustainability they are designed to make people think about the choices they make.
 
@@ -35,6 +41,16 @@ The user will learn about the fundamentals of carbon footprint, what is a carbon
 
 The user will then be able click through to the lifestyle page to see how they can reduce their carbon footprint.
 
+<!-- Footprint page -->
+Footprint page
+
+The footprint page is to educate users about our carbon footprint.
+
+The user will learn about carbon neutrality.
+
+The user will learn about carbon offsetting and examples.
+
+<!-- hope page -->
 Hope
 
 The hope section is meant to inspire users that we can save our planet.
@@ -45,10 +61,37 @@ The user will also see links to our latest blog posts, the blog is our sister si
 
 The user will be able to navigate to the lifestyle page to get solutions on how to become more sustainable.
 
+<!-- lifestyle page -->
+Lifestyle
+
+Our first of it's kind sustainabile life strategy aims to not only bring the earth back to life, but also bring ourselves back to life, bringing our essence, our spirit, our sense of purpose back to life. It’s about bringing meaning to our lives.
+
+
+Carousel with 5 text images showing what we do.
+
+The process in three steps.
+
+Health split into three sections diet, mindfulness and exercise.
+
+Three testimonials from our clients.
+
+Events.
+
+<!-- coaching -->
+
+Who is this course for.
+
+What is life coaching?
+
+Is it for me?
+
+
+<!-- join us -->
 Join Us
 
 The user will be able to sign up to recieve our weekly newsletter on how to be more sustainable.
 
+<!-- awareness pages -->
 Awareness pages x 6
 
 Climate Justice
@@ -109,27 +152,32 @@ The user will be able to navigate to the lifestyle page to get solutions on how 
 
 Features Left to Implement
 Refine styling
-Add content
-Create video library
-Create links at bottom of pages
+
 Testing
 In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your project’s features and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
 
+All features have been thoroughly checked and no bugs
+
+Un sdg's need to link to appropriate pages
+
+Some small bugs conbcerning alignment to be fixed.
+
 In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
 
-You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
-
-If this section grows too long, you may want to split it off into a separate file and link to it from here.
+Need to address how it looks on mobile devices.
 
 Validator Testing
 
 HTML
-No errors were returned when passing through the official W3C validator
+Several errors still to rectify, mainly on lifestyle page
 
 CSS
-No errors were found when passing through the official (Jigsaw) validator
+10 errors were found when passing through the official (Jigsaw) validator
 Unfixed Bugs
+
 You will need to mention unfixed bugs and why they were not fixed. This section should include shortcomings of the frameworks or technologies used. Although time can be a big variable to consider, paucity of time and difficulty understanding implementation is not a valid reason to leave bugs unfixed.
+
+6 awareness pages need to change main so it's not a child
 
 Deployment
 This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub)
@@ -138,7 +186,7 @@ The site was deployed to GitHub pages. The steps to deploy are as follows:
 In the GitHub repository, navigate to the Settings tab
 From the source section drop-down menu, select the Master Branch
 Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
-The live link can be found here - https://code-institute-org.github.io/love-running-2.0/index.html
+The live link can be found here - https://responsibleuk.github.io/the-circle/
 
 Credits
 In this section you need to reference where you got your content, media and extra help from. It is common practice to use code from other repositories and tutorials, however, it is important to be very specific about these sources to avoid plagiarism.
@@ -146,13 +194,50 @@ In this section you need to reference where you got your content, media and extr
 You can break the credits section up into Content and Media, depending on what you have included in your project.
 
 Content
-The text for the Home page was taken from Wikipedia Article A
-Instructions on how to implement form validation on the Sign Up page was taken from Specific YouTube Tutorial
-The icons in the footer were taken from Font Awesome
+The content has been inspired by:
+https://drawdown.org/
+https://www.tonyrobbins.com/
+https://www.onecommune.com/login
+https://sdgs.un.org/goals
+https://news.sky.com/story/climate-change-seven-technology-solutions-that-could-help-solve-crisis-12056397
+https://www.onecommune.com/regeneration-with-paul-hawken-teacher-wisdom
+https://www.climategen.org/who-we-are/our-mission-and-vision/
+
 Media
-The photos used on the home and sign up page are from This Open Source site
-The images used for the gallery page were taken from this other open source site
-Congratulations on completing your Readme, you have made another big stride in the direction of being a developer!
+https://unsplash.com/
+https://sdgs.un.org/goals
+
+
+Code
+
+Favicon icon code
+https://www.codegrepper.com/code-examples/html/%3Clink+rel%3D%22icon%22+type%3D%22image%2Fpng%22+href%3D%22assets%2Fimg%2Ffavicon.png%22%3E
+
+About us styling
+https://www.youtube.com/watch?v=8kS1B5iaBmg
+
+Offsetting styling
+http://bluegalaxy.info/codewalk/2018/04/05/html-css-expand-text-hover/
+
+https://www.wren.co/offset-anything
+
+Lifestyle page layout
+https://tympanus.net/codrops/2012/06/12/css-only-responsive-layout-with-smooth-transitions/
+
+Hope source
+https://news.sky.com/story/climate-change-seven-technology-solutions-that-could-help-solve-crisis-12056397
+
+Methodology source
+https://freefrontend.com/css-carousels/#horizontal-carousels
+https://codepen.io/onion2k/pen/xxZYBVj
+
+Carousel
+https://codepen.io/onion2k/pen/xxZYBVj
+
+General
+https://publishing-project.rivendellweb.net/using-figures-and-flex-box-to-align-captions/
+
+
 
 Other General Project Advice
 Below you will find a couple of extra tips that may be helpful when completing your project. Remember that each of these projects will become part of your final portfolio so it’s important to allow enough time to showcase your best work!
