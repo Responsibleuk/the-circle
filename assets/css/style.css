@@ -106,6 +106,88 @@ menu ul {
   padding: 10px;
 }
 
+/* responsive nav bar */
+.hamburger {
+  display: none;
+}
+
+.bar {
+  display: block;
+  width: 25px;
+  height: 3px;
+  margin: 5px auto;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  background-color: #101010;
+}
+#menuToggle {
+  display: none;
+}
+.menu-icon {
+  display: none;
+}
+
+@media screen and (max-width: 768px) {
+  
+  #logo {
+    display: none;
+  }
+
+  #menu {
+      width: 100%;
+      height: auto;
+  }
+  #menu ul {
+      display: block;
+      max-height: 0;
+    overflow: hidden;
+    -webkit-transition: max-height 0.3s;
+    -moz-transition: max-height 0.3s;
+      -ms-transition: max-height 0.3s;
+      -o-transition: max-height 0.3s;
+    transition: max-height 0.3s;
+      /*Para fazer com que o menu saia da esquerda, você deve trocar max-height por max-width*/
+      /*Para fazer com que o menu saia da direita, você deve trocar max-height por max-width e setar float: right*/
+  }
+  #menu ul a {
+      text-align: left;
+      width: 100%;
+      height: 50px;
+      background-color: #f1c40f;
+      padding: 10px 0px 10px 5%;
+  }
+  #menu-icon {
+      width: 100px;
+      height: inherit;
+      display: block;
+      position: absolute;
+      top: 0;
+      right: 0;
+      line-height: 60px;
+  }
+  #menuToggle:checked ~ ul {
+      max-height: 350px;
+      /*Para fazer com que o menu saia da esquerda ou direita, você deve trocar max-height por max-width*/
+  }
+  .menu-icon i {
+      font-size: 1.7em;
+  }
+
+  #menu a:hover {
+    text-decoration: underline;
+    border: none;
+    padding: 0px;
+  }
+  
+  .active {
+    border: none;
+    padding: 0px;
+  }
+}
+
+
+
+
 /* hero image */
 #hero-image {
   height: 800px;
@@ -1421,5 +1503,55 @@ padding-right: 20px;
     margin-bottom: 10px;
     font-size: 30px;
     font-weight: 900;
+}
+
+/* events */
+#events-about-container {
+  background-color:white;
+  width: 85%;
+  padding-right: 10px;
+  overflow: hidden; 
+  }
+
+  #events-about-container-two {
+    background-color:white;
+    width: 85%;
+    padding-right: 10px;
+    overflow: hidden; 
+    padding-left: 100px;
+    }
+
+
+  .events-about-section{
+    background-image: url(../images/join-us/manny-and-freddy.jpg);
+    background-size: 100%;
+    background-color: rgba(255, 255, 255,);
+    overflow: hidden;
+    padding: 100px 0;
+}
+
+.events-inner-container{
+  position: relative;
+  left: 50px;
+  /* top: 50px; */
+  width: 60%;
+  background-color: rgb(255, 255, 255, 0.9);
+  padding-top: 2px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.events-inner-container h1{
+    margin-bottom: 10px;
+    font-size: 30px;
+    font-weight: 900;
+}
+
+.events-text{
+    font-size: 13px;
+    color: #545454;
+    line-height: 30px;
+    text-align: justify;
 }
 

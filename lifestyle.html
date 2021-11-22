@@ -6,7 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="shortcut icon" type="image/jpg" href="assets/images/logo/the-circle-favicon.jpg">
-
+  <script src="myscripts.js"></script>
   <link rel="stylesheet" href="assets/css/style.css">
   <title>Lifestyle</title>
 </head>
@@ -16,6 +16,8 @@
   <header>
     <nav id="nav-container" class="menu">
       <img id="logo" src="assets/images/logo/the-circle-horizontal.jpg" alt="the-circle-horizontal-logo">
+      <input type="checkbox" id="menuToggle">
+            <label for="menuToggle" class="menu-icon"><i class="fa fa-bars"></i></label>
       <ul id="menu">
         <li>
           <a href="index.html">Home</a>
@@ -36,6 +38,11 @@
           <a href="join-us.html">Join Us</a>
         </li>
       </ul>
+      <section class="hamburger">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </section>
     </nav>
   </header>
 
@@ -211,11 +218,11 @@
       <!-- events -->
 
       <h1 class="lifestyle-heading">Events</h1>
-      <section id="exercise-about-container">
+      <section id="events-about-container">
         <section class="events-about-section">
-          <section class="exercise-inner-container">
+          <section class="events-inner-container">
             <h1>Events</h1>
-            <h5 class="exercise-text">And right now, you have the opportunity to attend from anywhere in the world.
+            <h5 class="events-text">And right now, you have the opportunity to attend from anywhere in the world.
 
               With this virtual format, you don’t have to leave your home, pay for travel and lodging, find child or pet
               care and you still get the incredible benefits of attending our first Circle event.
