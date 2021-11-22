@@ -127,61 +127,6 @@ menu ul {
   display: none;
 }
 
-@media screen and (max-width: 768px) {
-  
-  #logo {
-    display: none;
-  }
-
-  #menu {
-      width: 50%;
-      height: auto;
-  }
-  #menu ul {
-      display: block;
-      max-height: 0;
-    overflow: hidden;
-    -webkit-transition: max-height 0.3s;
-    -moz-transition: max-height 0.3s;
-      -ms-transition: max-height 0.3s;
-      -o-transition: max-height 0.3s;
-    transition: max-height 0.3s;
-     }
-  #menu ul a {
-      text-align: center;
-      width: 100%;
-      height: 50px;
-      background-color: #f1c40f;
-      padding: 10px 0px 10px 5%;
-  }
-  #menu-icon {
-      width: 100px;
-      height: inherit;
-      display: block;
-      position: absolute;
-      top: 0;
-      right: 0;
-      line-height: 60px;
-  }
-  #menuToggle:checked ~ ul {
-      max-height: 350px;
-      }
-  .menu-icon i {
-      font-size: 1.7em;
-  }
-
-  #menu a:hover {
-    text-decoration: underline;
-    border: none;
-    padding: 0px;
-  }
-  
-  .active {
-    border: none;
-    padding: 0px;
-  }
-}
-
 
 
 
@@ -1198,41 +1143,6 @@ padding-left: 175px;
   }
   
 
-  
-    
-
-
-
-  /* offsetting projects  */
-        
-
-
-/* media rules */
-
-/* @media screen and (max-width:1200px){
-    .inner-container{
-        padding: 80px;
-    }
-
-@media screen and (max-width:1000px){
-    .about-section{
-        background-size: 100%;
-        padding: 100px 40px;
-    }
-    .inner-container{
-        width: 100%;
-    }
-
-@media screen and (max-width:600px){
-    .about-section{
-        padding: 0;
-    }
-    .inner-container{
-        padding: 30px;} */
-
-
-        /* lifestyle */
-
         /* methodology */
 
         .steps ul {
@@ -1552,3 +1462,249 @@ padding-right: 20px;
     text-align: justify;
 }
 
+
+
+
+
+
+
+
+
+
+/* media queries */
+
+@media screen and (max-width: 768px) {
+  
+  #logo {
+    display: none;
+  }
+
+  #menu {
+      width: 50%;
+      height: auto;
+  }
+  #menu ul {
+      display: block;
+      max-height: 0;
+    overflow: hidden;
+    -webkit-transition: max-height 0.3s;
+    -moz-transition: max-height 0.3s;
+      -ms-transition: max-height 0.3s;
+      -o-transition: max-height 0.3s;
+    transition: max-height 0.3s;
+     }
+  #menu ul a {
+      text-align: center;
+      width: 100%;
+      height: 50px;
+      background-color: #f1c40f;
+      padding: 10px 0px 10px 5%;
+  }
+  #menu-icon {
+      width: 100px;
+      height: inherit;
+      display: block;
+      position: absolute;
+      top: 0;
+      right: 0;
+      line-height: 60px;
+  }
+  #menuToggle:checked ~ ul {
+      max-height: 350px;
+      }
+  .menu-icon i {
+      font-size: 1.7em;
+  }
+
+  #menu a:hover {
+    text-decoration: underline;
+    border: none;
+    padding: 0px;
+  }
+  
+  .active {
+    border: none;
+    padding: 0px;
+  }
+
+  #hero-image-main-text {
+    left: 0px;
+  }
+  .mobile-remove {
+    display: none;
+  }
+
+  .about-section {
+    background-image: none;
+  }
+
+  .team-text {
+    left: 0px;
+    width: 300px
+  }
+
+  .flex-container {
+    display: block;
+    /* justify-content: flex-start;
+    flex-direction: row; */
+    background-color: white; 
+    padding-left: 0;      
+    }
+          
+    .awareness-image {
+    width: 80vw;
+    margin-bottom: 0;
+    }
+          
+    .awareness-figure {
+    background-color: white;
+    display: flex;
+    flex-flow: column;
+    width: 80vw;
+    padding-left: 0px;
+    padding-right: 0px;
+    }
+    
+    .awareness-caption {
+    align-self: flex-start;
+    text-align: center;
+    border-bottom: none;
+    font-size: 100%;
+    width: 75vw;
+    }
+    
+    .more-info {
+      text-decoration: none;
+    }
+
+    #about-container {
+      background-color:white;
+      width: 100%; 
+      }
+    
+    
+      .about-section{
+        background-image: none;
+        background-size: 100%;
+        background-color: #fdfdfd;
+        overflow: hidden;
+        padding: 0;
+    }
+    
+    .inner-container{
+        width: 90%;
+        float: right;
+        background-color: #fdfdfd;
+        padding: 25px;
+    }
+    
+    .inner-container h1{
+        margin-bottom: 30px;
+        font-size: 30px;
+        font-weight: 900;
+    }
+    
+    .team-text{
+        font-size: 13px;
+        color: #545454;
+        line-height: 30px;
+        text-align: justify;
+        margin-bottom: 10px;
+        padding-right: 100px;
+    }
+
+    .offsetting-container {
+      display: block;
+      width: 100vm;
+      background-color: white;
+      padding-left: 5px;     
+      }
+
+      #sink-image {
+        width: 100%;
+        height: auto;
+        padding-left: 0px;
+      } 
+
+      #footprint-main {
+      background-color: white;
+      padding-top: 30px;
+      padding-left: 5px;
+      width: 80%;
+      float: left;
+}
+
+#footprint-body {
+  background-color: white;
+  padding-top: 30px;
+  padding-left: 5px;
+  width: 80%;
+  float: left;
+}
+
+#net-zero-neutral {
+  display: block;
+  justify-content: flex-start;
+  flex-direction: row;
+  width: 80vw;
+  background-color: white;
+  padding-top: 50px;
+  padding-left: 5px;
+}
+
+#offsetting-introduction-container {
+  background-color: white;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+#hero-image-footprint-text {
+  position: absolute;
+  color: #fff;
+  text-align: center;
+  font-weight: bold;
+  top: 300px;
+  left: 20px;
+  font-size: 35px;
+  text-size-adjust: 300%;
+  letter-spacing: 4px;
+  padding: 10px;
+}
+
+#hero-image-hope-text {
+  position: absolute;
+  top: 375px;
+  color: #fdfdfd;
+  left: 20px;
+  font-size: 25px;
+  letter-spacing: 4px;
+  padding: 10px;
+}
+
+#un-container {
+  background-color:white;
+  padding-left: 5px;
+  padding-right: 5px;
+  display: flex;
+  flex-direction: column;
+  }
+  
+  .un-flex-grid {
+    display: block;
+    margin-left: 5px;
+    margin-right: auto;
+  }
+  
+  .un-img {
+    flex-direction: column;
+    width: 90vm;
+    padding-bottom: 5px;
+  }
+  
+  .un-img-horizontal {
+    float: left;
+    width: 90vm%;
+    padding-bottom: 5px;
+  }
+
+}
