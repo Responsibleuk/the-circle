@@ -1383,7 +1383,7 @@ padding-right: 20px;
   #logo {
     position: absolute;
     top: 0px;
-    left: 50vw;
+    left: 35vw;
   }
 
   #hero-image-main-text {
@@ -2051,8 +2051,43 @@ menu ul {
 }
 
 .active {
+  font-weight: bold;
   border: none;
   padding: 0px;
+}
+
+#awareness-intro-image {
+  display: block;
+  flex-flow: row;
+  justify-content: flex-start;
+  width: 95vw;
+  height: auto;
+}
+
+#awareness-intro-image-caption {
+  align-self: flex-start;
+  padding-left: 0em;
+  margin-left: 0em;
+  width: 90vw;
+  padding-right: 0px;
+}
+
+#awareness-image-container {
+  background-color: white;       
+  padding-left: 0px;
+  padding-right: 0px;
+  }
+
+.awareness-intro { 
+  position: relative; 
+  width: 100%; 
+}
+
+.awareness-intro-h { 
+  position: absolute; 
+  top: 200px; 
+  left: 30px; 
+  width: 100%; 
 }
 
 }
