@@ -106,28 +106,6 @@ menu ul {
   padding: 10px;
 }
 
-/* responsive nav bar */
-.hamburger {
-  display: none;
-}
-
-.bar {
-  display: block;
-  width: 25px;
-  height: 3px;
-  margin: 5px auto;
-  -webkit-transition: all 0.3s ease-in-out;
-  transition: all 0.3s ease-in-out;
-  background-color: #101010;
-}
-#menuToggle {
-  display: none;
-}
-.menu-icon {
-  display: none;
-}
-
-
 
 
 /* hero image */
@@ -1405,59 +1383,7 @@ padding-right: 20px;
   #logo {
     position: absolute;
     top: 0px;
-    left: 0px;
-
-  }
-
-  #menu {
-      width: 50%;
-      height: auto;
-      position: sticky;
-      top: 150px;
-      right: 0px;
-  }
-  #menu ul {
-      display: block;
-      max-height: 0;
-    overflow: hidden;
-    -webkit-transition: max-height 0.3s;
-    -moz-transition: max-height 0.3s;
-      -ms-transition: max-height 0.3s;
-      -o-transition: max-height 0.3s;
-    transition: max-height 0.3s;
-     }
-  #menu ul a {
-      text-align: center;
-      width: 100%;
-      height: 50px;
-      background-color: #f1c40f;
-      padding: 10px 0px 10px 5%;
-  }
-  #menu-icon {
-      width: 100px;
-      height: inherit;
-      display: block;
-      position: absolute;
-      top: 0;
-      right: 0;
-      line-height: 60px;
-  }
-  #menuToggle:checked ~ ul {
-      max-height: 350px;
-      }
-  .menu-icon i {
-      font-size: 1.7em;
-  }
-
-  #menu a:hover {
-    text-decoration: underline;
-    border: none;
-    padding: 0px;
-  }
-  
-  .active {
-    border: none;
-    padding: 0px;
+    left: 50vw;
   }
 
   #hero-image-main-text {
@@ -2081,6 +2007,52 @@ padding-right: 20px;
   width: 90vw;
   left: 0;
   overflow: hidden;
+}
+
+header {
+  padding-right: 0px;
+  padding-left: 0px;
+} 
+
+#menu {
+  font-size: 80%;
+  letter-spacing: 4px;
+  background-color: #fff;
+  vertical-align: top;
+  padding: 20px;
+}
+
+#menu,
+menu ul {
+  display: block;
+  justify-content: flex-end;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+#menu,
+#menu li {
+  list-style-type: none;
+  font-size: large;
+  margin-right: 10px;
+
+}
+
+#menu a {
+  text-decoration: none;
+  color: inherit;
+}
+
+#menu a:hover {
+  font-weight: bold;
+  border: none;
+  padding: 0px;
+}
+
+.active {
+  border: none;
+  padding: 0px;
 }
 
 }
