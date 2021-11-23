@@ -167,8 +167,8 @@ padding: 10px;
   text-align: center;
   font-weight: bold;
   top: 300px; 
-  left: 200px; 
-  font-size: 35px;
+  left: 75px; 
+  font-size: 45px;
   text-size-adjust: 300%;
   letter-spacing: 4px;  
   padding: 10px; 
@@ -190,27 +190,20 @@ padding: 10px;
 }
 
 #hero-image-hope-text { 
-  position: absolute; 
-  top: 375px; 
-  color: #fdfdfd;
-  left: 200px; 
-  font-size: 25px;
+  position: absolute;
+  color: #fff; 
+  text-align: center;
+  font-weight: bold;
+  top: 300px; 
+  left: 175px; 
+  font-size: 45px;
+  text-size-adjust: 300%;
   letter-spacing: 4px;  
   padding: 10px; 
-  }
-
-  #hero-image-hope-text-large { 
-    position: absolute; 
-    top: 375px; 
-    color: #fdfdfd;
-    left: 100px; 
-    font-size: 55px;
-    letter-spacing: 4px;  
-    padding: 10px; 
-    }
-  
+}
 
   /* lifestyle hero image */
+
 #hero-image-lifestyle {
   height: 800px;
   width: 100%;
@@ -490,12 +483,12 @@ padding-top: 10px;
   justify-content: flex-start;
   flex-direction: row;
   background-color: white;       
-  padding-left: 0px;
+  padding-left: 50px;
   }
   
         
   .hope-image {
-  width: 16vw;
+  width: 14vw;
   margin-bottom: 0;
   border-radius: 50%;
   }
@@ -504,7 +497,7 @@ padding-top: 10px;
   background-color: white;
   display: flex;
   flex-flow: column;
-  width: 14vw;
+  width: 13vw;
   /* padding-left: 10px;
   padding-right: 10px; */
 
@@ -570,9 +563,15 @@ padding-top: 10px;
   overflow: hidden; 
   }
 
+  #coaching-about-container-two {
+    background-color:white;
+    width: 83%;
+    padding-left: 100px;
+    overflow: hidden; 
+    }
 
   .coaching-about-section{
-    background-image: url(../images/hope/lifecoaching.jpg);
+    background-image: url(../images/join-us/manny-and-freddy.jpg);
     background-size: 100%;
     background-color: #fdfdfd;
     overflow: hidden;
@@ -580,7 +579,7 @@ padding-top: 10px;
 }
 
 .coaching-inner-container{
-    width: 35%;
+    width: 75%;
     float: left;
     background-color: #fdfdfd;
     padding: 25px;
@@ -588,7 +587,7 @@ padding-top: 10px;
 
 .coaching-inner-container h1{
     margin-bottom: 30px;
-    font-size: 30px;
+    font-size: 25px;
     font-weight: 900;
 }
 
@@ -1102,7 +1101,7 @@ padding-left: 175px;
   }
 
   
-  /* diet */
+  /* exercise */
   #exercise-about-container {
     background-color:white;
     width: 100%;
@@ -1291,11 +1290,11 @@ padding-left: 175px;
           --position: 5;
         }
 
-/* mindset */ 
+/* testimonials */ 
 
 #mindset-container{
-  background-image: linear-gradient(rgba(0, 0, 0, .6), rgba(0, 0, 0, .6)), url(../images/lifestyle/man-in-forest.jpg);
-  height: 300px;
+  background-image: linear-gradient(rgba(0, 0, 0, .6), rgba(0, 0, 0, .6)), url(../images/lifestyle/water.jpg);
+  height: 250px;
   background-size: 100%;
   overflow: hidden;
   padding: 100px 0;
@@ -1314,67 +1313,45 @@ height: 30vw;
 
   /* events */
 
+/* exercise */
+#event-about-container {
+background-color:white;
+width: 100%;
+}
+
   .events-about-section{
-    background-image:linear-gradient(rgba(0, 0, 0, .8), rgba(0, 0, 0, .8)), url(../images/lifestyle/event.jpg);
-    background-size: 100%;
-    background-color: rgba(255, 255, 255,);
-    overflow: hidden;
-    padding: 100px 0;
+      background-image: url(../images/lifestyle/outside-event.jpg);
+      background-size: 100%;
+      background-color: rgba(255, 255, 255,);
+      overflow: hidden;
+      padding: 100px 0;
   }
-
-  @media only screen and (max-width: 479px) {
-    .bg-change{background-image:none !important;background-color:#222222 !important;}
-    }
   
-    /* coaching */
- #coaching-about-container {
-  background-color:white;
-  width: 85%;
-  padding-right: 10px;
-  overflow: hidden; 
+  .events-inner-container{
+    position: relative;
+    left: 650px;
+    /* top: 50px; */
+    width: 30%;
+    background-color: rgb(255, 255, 255, 0.9);
+    padding-top: 2px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  
+  .events-inner-container h1{
+      margin-bottom: 10px;
+      font-size: 30px;
+      font-weight: 900;
+  }
+  
+  .events-text{
+      font-size: 13px;
+      color: #545454;
+      line-height: 30px;
+      text-align: justify;
   }
 
-  #coaching-about-container-two {
-    background-color:white;
-    width: 85%;
-    padding-right: 10px;
-    overflow: hidden; 
-    padding-left: 100px;
-    }
-
-
-  .coaching-about-section{
-    background-image: url(../images/join-us/manny-and-freddy.jpg);
-    background-size: 100%;
-    background-color: rgba(255, 255, 255,);
-    overflow: hidden;
-    padding: 100px 0;
-}
-
-.coaching-inner-container{
-  position: relative;
-  left: 200px;
-  /* top: 50px; */
-  width: 60%;
-  background-color: rgb(255, 255, 255, 0.9);
-  padding-top: 2px;
-  padding-bottom: 10px;
-  padding-left: 20px;
-  padding-right: 20px;
-}
-
-.coaching-inner-container h1{
-    margin-bottom: 10px;
-    font-size: 30px;
-    font-weight: 900;
-}
-
-.coaching-text{
-    font-size: 13px;
-    color: #545454;
-    line-height: 30px;
-    text-align: justify;
-}
 
 /* coaching */
 #life-coaching-about-container {
@@ -1412,49 +1389,6 @@ padding-right: 20px;
     font-weight: 900;
 }
 
-/* events */
-#events-about-container {
-  background-color:white;
-  width: 85%;
-  padding-right: 10px;
-  overflow: hidden; 
-  }
-
-  #events-about-container-two {
-    background-color:white;
-    width: 85%;
-    padding-right: 10px;
-    overflow: hidden; 
-    padding-left: 100px;
-    }
-
-
-  .events-about-section{
-    background-image: url(../images/join-us/manny-and-freddy.jpg);
-    background-size: 100%;
-    background-color: rgba(255, 255, 255,);
-    overflow: hidden;
-    padding: 100px 0;
-}
-
-.events-inner-container{
-  position: relative;
-  left: 50px;
-  /* top: 50px; */
-  width: 60%;
-  background-color: rgb(255, 255, 255, 0.9);
-  padding-top: 2px;
-  padding-bottom: 10px;
-  padding-left: 20px;
-  padding-right: 20px;
-}
-
-.events-inner-container h1{
-    margin-bottom: 10px;
-    font-size: 30px;
-    font-weight: 900;
-}
-
 .events-text{
     font-size: 13px;
     color: #545454;
@@ -1476,12 +1410,18 @@ padding-right: 20px;
 @media screen and (max-width: 768px) {
   
   #logo {
-    display: none;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+
   }
 
   #menu {
       width: 50%;
       height: auto;
+      position: sticky;
+      top: 150px;
+      right: 0px;
   }
   #menu ul {
       display: block;
@@ -1613,12 +1553,49 @@ padding-right: 20px;
         padding-right: 100px;
     }
 
-    .offsetting-container {
-      display: block;
-      width: 100vm;
-      background-color: white;
-      padding-left: 5px;     
-      }
+    /* offseting section */
+#offsetting-introduction-container {
+  background-color: white;
+  padding-left: 105px;
+  padding-right: 120px;
+  }
+  
+  /* offset image with text over */
+  
+  .offsetting-container {
+  display: block;
+  background-color: white;
+  padding-left: 5vw;     
+  }
+  
+  .offset-image { 
+    width: 95vw; 
+    margin-bottom: 5px;
+    margin-top: 0;
+    margin-left: 0;
+    margin-right: 0;
+  }
+  
+  .offset-intro { 
+    position: relative; 
+    margin-bottom: 0;
+    margin-top: 0;
+    margin-left: 0;
+    margin-right: 0;
+  }
+  
+  .offset-intro-h { 
+    position: absolute; 
+    top: 200px; 
+  }
+  
+  .offset-intro-h figcaption { 
+    color: white; 
+    letter-spacing: 1px;  
+    font-size: 15px;
+    background: rgba(0, 0, 0, 0.7);
+    padding: 10px; 
+  }
 
       #sink-image {
         width: 100%;
@@ -1649,13 +1626,20 @@ padding-right: 20px;
   width: 80vw;
   background-color: white;
   padding-top: 50px;
-  padding-left: 5px;
+  padding-left: 0px;
+}
+
+.hope-figure {
+  background-color: white;
+  display: flex;
+  flex-flow: column;
+  width: 55vw;
 }
 
 #offsetting-introduction-container {
   background-color: white;
-  padding-left: 5px;
-  padding-right: 5px;
+  padding-left: 5vw;
+  padding-right: 5vw;
 }
 
 #hero-image-footprint-text {
@@ -1703,8 +1687,197 @@ padding-right: 20px;
   
   .un-img-horizontal {
     float: left;
-    width: 90vm%;
+    width: 90vm;
     padding-bottom: 5px;
+  }
+
+
+  #coaching-about-container {
+    background-color:white;
+    width: 95%;
+    padding-left: 2px;
+    overflow: hidden; 
+    }
+  
+    #coaching-about-container-two {
+      background-color:white;
+      width: 95%;
+      padding-left: 2px;
+      overflow: hidden; 
+      }
+  
+    .coaching-about-section{
+      display: none;
+    }
+      
+/* hope page */
+
+.hope-container {
+  display: block;
+  justify-content: flex-start;
+  flex-direction: row;
+  background-color: white;       
+  padding-left: 50px;
+  }
+  
+        
+  .hope-image {
+  width: 45vw;
+  margin-bottom: 0;
+  border-radius: 50%;
+  }
+        
+  .hope-figure {
+  background-color: white;
+  display: flex;
+  flex-flow: column;
+  width: 45vw;
+  /* padding-left: 10px;
+  padding-right: 10px; */
+
+  }
+
+  /* technology */
+
+#hope-tech-container {
+  background-color:white;
+  padding-left: 10px;
+  padding-right: 0px;
+  }
+
+.tech-highlight {
+  color: #0C3C60;
+  /* padding-left: 50px; */
+}
+
+.tech-figure {
+  display: block;
+  flex-flow: row;
+  justify-content: flex-start;
+}
+
+.tech-img {
+  width: 75vw;
+  margin-bottom: 0;
+  margin-left: 0;
+}
+
+.tech-figcaption {
+  align-self: flex-start;
+  border-left: none;
+  padding-left: 0;
+  margin-left: 0;
+  width: 75vw;
+
+}
+
+#cop-about-container {
+  background-color:white;
+  width: 83%;
+  padding-left: 100px;
+  overflow: hidden; 
+  }
+
+
+  .cop-about-section{
+    background-image: none;
+    background-size: 100%;
+    background-color: #fdfdfd;
+    overflow: hidden;
+    padding: 100px 0;
+}
+
+.cop-inner-container{
+    width: 75%;
+    float: left;
+    background-color: #fdfdfd;
+    padding: 25px;
+}
+
+.cop-inner-container h1{
+    margin-bottom: 30px;
+    font-size: 30px;
+    font-weight: 900;
+}
+
+.cop-text{
+    font-size: 13px;
+    color: #545454;
+    line-height: 30px;
+    text-align: justify;
+    margin-bottom: 10px;
+    padding-right: 100px;
+}
+
+#protest-about-container {
+  background-color:white;
+  width: 83%;
+  padding-left: 100px;
+  overflow: hidden; 
+  }
+
+
+  .protest-about-section{
+    background-image: none;
+    background-size: 100%;
+    background-color: #fdfdfd;
+    overflow: hidden;
+    padding: 100px 0;
+}
+
+.protest-inner-container{
+    width: 75%;
+    float: left;
+    background-color: #fdfdfd;
+    padding: 25px;
+}
+
+.protest-inner-container h1{
+    margin-bottom: 30px;
+    font-size: 30px;
+    font-weight: 900;
+}
+/* coaching */
+#life-coaching-about-container {
+  background-color:white;
+  width: 85%;
+  padding-right: 10px;
+  overflow: hidden; 
+  padding-left: 10px;
+  }
+  
+  
+  .life-coaching-about-section{
+  background-image: none;
+  background-size: 100%;
+  background-color: rgba(255, 255, 255,);
+  overflow: hidden;
+  padding: 0;
+  }
+  
+  .life-coaching-inner-container{
+  position: relative;
+  left: 200px;
+  /* top: 50px; */
+  width: 60%;
+  background-color: rgb(255, 255, 255, 0.9);
+  padding-top: 2px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  }
+  
+  .life-coaching-inner-container h1{
+      margin-bottom: 10px;
+      font-size: 30px;
+      font-weight: 900;
+  }
+  
+  .events-text{
+      font-size: 13px;
+      color: #545454;
+      line-height: 30px;
+      text-align: justify;
   }
 
 }
