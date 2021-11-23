@@ -541,6 +541,13 @@ padding-top: 10px;
     overflow: hidden; 
     }
 
+    #coaching-about-container-three {
+      background-color:white;
+      width: 83%;
+      padding-left: 100px;
+      overflow: hidden; 
+      }
+
   .coaching-about-section{
     background-image: url(../images/join-us/manny-and-freddy.jpg);
     background-size: 100%;
@@ -819,12 +826,18 @@ padding-right: 50px;
 
 /* footprint page styling */
 
-#footprint-container {
+#footprint-main-container {
   background-color: white;
   padding-left: 50px;
   width: calc(100% - 50px); 
   }
   
+  #footprint-container {
+    background-color: white;
+    padding-left: 50px;
+    width: calc(100% - 50px); 
+    }
+
   #footprint-main {
   background-color: white;
   padding-top: 30px;
@@ -834,9 +847,9 @@ padding-right: 50px;
   }
           
   #footprint-body {
-  background-color: white;  
+  background-color: blue;  
   padding-top: 30px;
-  padding-left: 50px;
+  padding-left: 100px;
   width: 50%;
   float: left;
   }
