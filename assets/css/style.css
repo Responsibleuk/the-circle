@@ -213,24 +213,17 @@ padding: 10px;
   
   /* hero image text */
   #hero-image-lifestyle-text { 
-    position: absolute; 
-    color: #fff;
-    top: 175px; 
-    left: 400px; 
-    font-size: 40px;
-    letter-spacing: 4px;  
-    padding: 10px; 
-    }
-
-    #hero-image-lifestyle-text-main { 
-      position: absolute; 
-      color: #fff;
-      top: 175px; 
-      left: 100px; 
-      font-size: 100px;
-      letter-spacing: 4px;  
-      padding: 10px; 
-      }
+    position: absolute;
+  color: #fff; 
+  text-align: center;
+  font-weight: bold;
+  top: 300px; 
+  left: 75px; 
+  font-size: 45px;
+  text-size-adjust: 300%;
+  letter-spacing: 4px;  
+  padding: 10px; 
+  }
 
 
 /* join us */
@@ -1404,7 +1397,7 @@ padding-right: 20px;
 
 
 
-
+/* ///////////////////////////////////////////////////////////////////////////////// */
 /* media queries */
 
 @media screen and (max-width: 768px) {
@@ -1879,5 +1872,202 @@ padding-right: 20px;
       line-height: 30px;
       text-align: justify;
   }
+
+  #title {
+    padding-top: 30px;
+    padding-left: 10px;
+    width: 75%;
+    float: left;
+    }
+            
+    #solution {
+    padding-top: 30px;
+    padding-right: 0px;
+    width: 75%;
+    float: left;
+    }
+  
+  /* navigation to next awareness page */
+  #next-awareness-container {
+    background-color: #fff;
+    width: 100%;
+    overflow: hidden; 
+    }
+  
+  #next-awareness-education{
+    background-image: url(../images/hero-images/education-of-girls.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 200px;
+    width: 100%;
+    overflow: hidden;
+  }
+
+  #hero-image-lifestyle-text { 
+    position: absolute;
+  color: #fff; 
+  text-align: center;
+  font-weight: bold;
+  top: 300px; 
+  left: 25px; 
+  font-size: 45px;
+  text-size-adjust: 300%;
+  letter-spacing: 4px;  
+  padding: 10px; 
+  }
+
+  .introduction-container {
+    background-color: white;
+    padding-left: 5px;
+    padding-right: 5px;
+    }
+
+    #awareness-image-container {
+      background-color: white;       
+      padding-left: 5px;
+      padding-right: 5px;
+      }
+
+      .steps ul {
+        display: flex;
+        flex-wrap: wrap;
+        padding-left: 5px;
+      }
+      
+      .steps ul li {
+        text-align: center;
+        list-style: none;
+        flex: 0 0 90%;
+        padding-left: 4vw;
+        padding-right: 4vw;
+        padding-top: 1vw;
+        padding-bottom: 1vw;
+      }
+
+/* diet */
+#diet-about-container {
+  background-color:white;
+  width: 100%;
+  }
+
+
+  .diet-about-section{
+    background-image: none;
+    background-size: 100%;
+    background-color: rgba(255, 255, 255,);
+    overflow: hidden;
+    padding: 0px;
+}
+
+.diet-inner-container{
+  position: relative;
+  left: 0px;
+  /* top: 50px; */
+  width: 90%;
+  background-color: rgb(255, 255, 255, 0.9);
+  padding-top: 2px;
+  padding-bottom: 10px;
+  padding-left: 2px;
+  padding-right: 2px;
+}
+
+.diet-inner-container h1{
+    margin-bottom: 10px;
+    font-size: 30px;
+    font-weight: 900;
+}
+
+.diet-text{
+    font-size: 15px;
+    color: black;
+    line-height: 30px;
+    text-align: justify;
+}
+
+
+
+ /* mind */
+ 
+
+#mind-about-container {
+  background-color:white;
+  width: 100%;
+  }
+
+
+  .mind-about-section{
+    background-image: none;
+    background-size: 100%;
+    background-color: rgba(255, 255, 255,);
+    overflow: hidden;
+    padding: 0px;
+}
+
+.mind-inner-container{
+  position: relative;
+  left: 0px;
+  /* top: 50px; */
+  width: 90%;
+  background-color: rgb(255, 255, 255, 0.9);
+  padding-top: 2px;
+  padding-bottom: 10px;
+  padding-left: 2px;
+  padding-right: 2px;
+}
+
+.mind-inner-container h1{
+    margin-bottom: 10px;
+    font-size: 30px;
+    font-weight: 900;
+}
+
+.mind-text{
+    font-size: 15px;
+    color: black;
+    line-height: 30px;
+    text-align: justify;
+}
+
+
+/* exercise */
+#exercise-about-container {
+  background-color:white;
+  width: 100%;
+  }
+
+
+  .exercise-about-section{
+    background-image: none;
+    background-size: 100%;
+    background-color: rgba(255, 255, 255,);
+    overflow: hidden;
+    padding: 0px;
+}
+
+.exercise-inner-container{
+  position: relative;
+  left: 0px;
+  /* top: 50px; */
+  width: 90%;
+  background-color: rgb(255, 255, 255, 0.9);
+  padding-top: 2px;
+  padding-bottom: 10px;
+  padding-left: 2px;
+  padding-right: 2px;
+}
+
+.exercise-inner-container h1{
+    margin-bottom: 10px;
+    font-size: 30px;
+    font-weight: 900;
+}
+
+.exercise-text{
+    font-size: 15px;
+    color: black;
+    line-height: 30px;
+    text-align: justify;
+}
 
 }
