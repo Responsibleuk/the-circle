@@ -951,7 +951,7 @@ padding-left: 175px;
   padding: 10px; 
   position: relative;
   bottom: 100px;
-  width:15vw
+  width:vw
 } 
 
    /* lifestyle */
@@ -1551,7 +1551,7 @@ padding-right: 20px;
 #footprint-body {
   background-color: white;
   padding-top: 30px;
-  padding-left: 25px;
+  padding-left: 5px;
   width: 80%;
   float: left;
 }
