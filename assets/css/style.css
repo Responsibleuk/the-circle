@@ -548,6 +548,13 @@ padding-top: 10px;
       overflow: hidden; 
       }
 
+      #coaching-about-container-four {
+        background-color:white;
+        width: 83%;
+        padding-left: 100px;
+        overflow: hidden; 
+        }
+
   .coaching-about-section{
     background-image: url(../images/join-us/manny-and-freddy.jpg);
     background-size: 100%;
