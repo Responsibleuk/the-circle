@@ -801,12 +801,20 @@ padding-right: 50px;
   }
 
 
-  .about-section{
+  #about-team-section{
     background-image: url(../images/home-page/the-team.jpg); no-repeat center;
     background-size: 100%;
     background-color: #fdfdfd;
     overflow: hidden;
     padding: 100px 0;
+}
+
+.about-section{
+  background-image: url(../images/home-page/the-team.jpg); no-repeat center;
+  background-size: 100%;
+  background-color: #fdfdfd;
+  overflow: hidden;
+  padding: 100px 0;
 }
 
 .inner-container{
