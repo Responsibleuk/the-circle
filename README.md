@@ -1,4 +1,4 @@
-The Circle
+# The Circle
 
 The Circle aims to inform, educate and challenge the way we think helping to create a new collective consciousness that is needed to save our planet. We simplify the foundations of sustainability, explain the facts but also inspire people into taking action. The circle offers life coaching for individuals who want to not only become more sustainable but do it in such a way that it makes significant improvements in their own lives helping them to be healthier, happier and more successful.
 
@@ -179,14 +179,24 @@ You will need to mention unfixed bugs and why they were not fixed. This section 
 
 6 awareness pages need to change main so it's not a child
 
-Deployment
-This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub)
+## Deployment
 
-The site was deployed to GitHub pages. The steps to deploy are as follows:
-In the GitHub repository, navigate to the Settings tab
-From the source section drop-down menu, select the Master Branch
-Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
-The live link can be found here - https://responsibleuk.github.io/the-circle/
+The site was deployed to GitHub pages. The steps to deploy are as follows: 
+  - In the [GitHub repository](https://github.com/Responsibleuk/the-circle), navigate to the Settings tab 
+  - From the source section drop-down menu, select the **Main** Branch, then click "Save".
+  - The page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
+
+The live link can be found [here](https://responsibleuk.github.io/the-circle)
+
+## Local Deployment
+
+In order to make a local copy of this project, you can clone it. In your IDE Terminal, type the following command to clone my repository:
+
+- `git clone https://github.com/Responsibleuk/the-circle.git`
+
+Alternatively, if using Gitpod, you can click below to create your own workspace using this repository.
+
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/Responsibleuk/the-circle)
 
 Credits
 In this section you need to reference where you got your content, media and extra help from. It is common practice to use code from other repositories and tutorials, however, it is important to be very specific about these sources to avoid plagiarism.
