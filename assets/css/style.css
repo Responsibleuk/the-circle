@@ -48,13 +48,6 @@ header {
   padding-left: 100px;
 }  
 
-/* #nav-container {
-  background-color:orange;
-  height: 50px;
-  padding-left: 100px;
-  padding-right: 100px;
-  padding-top: 0px;
-  } */
 
 /* logo */
 #logo {
@@ -106,6 +99,57 @@ menu ul {
   padding: 10px;
 }
 
+
+#menu {
+  font-size: 80%;
+  letter-spacing: 4px;
+  background-color: #fff;
+  vertical-align: top;
+  padding: 20px;
+}
+
+#menu,
+menu ul {
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+/* awareness nav */
+
+#menu-aware {
+  font-size: 80%;
+  letter-spacing: 4px;
+  background-color: #fff;
+  vertical-align: top;
+  padding: 20px;
+  float: right;
+}
+
+#menu-aware,
+#menu-aware li {
+  list-style-type: none;
+  font-size: large;
+  margin-right: 10px;
+
+}
+
+#menu-aware a {
+  text-decoration: none;
+  color: inherit;
+}
+
+#menu-aware a:hover {
+  border: 1px solid #85C5D4;
+  padding: 10px;
+}
+
+.active {
+  border: 1px solid #85C5D4;
+  padding: 10px;
+}
 
 
 /* hero image */
