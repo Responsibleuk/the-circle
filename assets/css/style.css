@@ -816,7 +816,6 @@ padding-right: 50px;
 
 #next-awareness-education a {
   color: #fff;
-  font: raleway, sans-serif;
   text-transform: uppercase;
   text-decoration: none;
   font-size: 25px;
@@ -1015,7 +1014,6 @@ padding-left: 175px;
   
     .sustainability-about-section{
       background-image:linear-gradient(rgba(0, 0, 0, .8), rgba(0, 0, 0, .8)), url(../images/lifestyle/rainforest.jpg);
-      background-color: rgba(255, 255, 255,);
       height: 600px;
       overflow: hidden;
       padding: 100px 0;
@@ -1066,7 +1064,6 @@ padding-left: 175px;
     .diet-about-section{
       background-image: url(../images/lifestyle/diet.jpg);
       background-size: 100%;
-      background-color: rgba(255, 255, 255,);
       overflow: hidden;
       padding: 100px 0;
   }
@@ -1110,7 +1107,6 @@ padding-left: 175px;
     .mind-about-section{
       background-image: url(../images/lifestyle/mindfulness.jpg);
       background-size: 100%;
-      background-color: rgba(255, 255, 255,);
       overflow: hidden;
       padding: 100px 0;
   }
@@ -1151,7 +1147,6 @@ padding-left: 175px;
     .exercise-about-section{
       background-image: url(../images/lifestyle/exercise.jpg);
       background-size: 100%;
-      background-color: rgba(255, 255, 255,);
       overflow: hidden;
       padding: 100px 0;
   }
@@ -1362,7 +1357,6 @@ width: 100%;
   .events-about-section{
       background-image: url(../images/lifestyle/outside-event.jpg);
       background-size: 100%;
-      background-color: rgba(255, 255, 255,);
       overflow: hidden;
       padding: 100px 0;
   }
@@ -1406,7 +1400,7 @@ padding-left: 100px;
 .life-coaching-about-section{
 background-image: url(../images/hope/lifecoaching.jpg);
 background-size: 100%;
-background-color: rgba(255, 255, 255,);
+
 overflow: hidden;
 padding: 100px 0;
 }
@@ -1677,7 +1671,7 @@ padding-right: 20px;
   
   .un-img-horizontal {
     float: left;
-    width: 90vm;
+    width: 90vw;
     padding-bottom: 5px;
   }
 
@@ -1841,7 +1835,6 @@ padding-right: 20px;
   .life-coaching-about-section{
   background-image: none;
   background-size: 100%;
-  background-color: rgba(255, 255, 255,);
   overflow: hidden;
   padding: 0;
   }
@@ -1953,7 +1946,6 @@ padding-right: 20px;
   .diet-about-section{
     background-image: none;
     background-size: 100%;
-    background-color: rgba(255, 255, 255,);
     overflow: hidden;
     padding: 0px;
 }
@@ -1997,7 +1989,6 @@ padding-right: 20px;
   .mind-about-section{
     background-image: none;
     background-size: 100%;
-    background-color: rgba(255, 255, 255,);
     overflow: hidden;
     padding: 0px;
 }
@@ -2038,7 +2029,6 @@ padding-right: 20px;
   .exercise-about-section{
     background-image: none;
     background-size: 100%;
-    background-color: rgba(255, 255, 255,);
     overflow: hidden;
     padding: 0px;
 }

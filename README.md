@@ -1,4 +1,4 @@
-![CI logo](../a)
+![CI logo](../assets/images/logo/the-circle-horizontal.png)
 
 # The Circle
 
@@ -9,11 +9,14 @@ Our mission is to create a global wellness community around the ideas and practi
 
 Our first of it's kind sustainabile life strategy aims to not only bring the earth back to life, but also bring ourselves back to life, bringing our essence, our spirit, our sense of purpose back to life. It’s about bringing meaning to our lives.
 
-Features
+
+## Features 
+
 This website is for anybody who wants to learn more about sustainability and take action to making our planet more sustainable.
 
-Existing Features
-Navigation Bar
+### Existing Features
+
+- __Navigation Bar__
 
 Featured on all ten pages, the full responsive navigation bar includes links to the Logo, Home, Footprint, Inspiration, Awareness and The Truth page and is identical in each page to allow for easy navigation.
 
@@ -24,12 +27,7 @@ The landing includes a photograph with text overlay to allow the user to see exa
 This section introduces the user to The Circle with a bold image of melting polar ice caps and a brief description of our purpse.
 Who we are and what we do
 
-Awareness section
-The user will also see six areas of sustainability, climate justice, waste, renewable energy, education of girls, rewilding and lifestyle.
-The user will be able to click each image and will go through to a page containing more information about their choosen subject.
-Facts section The user will be able to read a list of facts the highlight the importance of sustainability they are designed to make people think about the choices they make.
-
-The Footer
+- __The Footer__
 
 The footer section includes a field for users to submit their email.
 The footer is valuable to the user as they will be able to register for our weekly newsletter on how to be more sustainable.
@@ -170,16 +168,16 @@ Need to address how it looks on mobile devices.
 
 Validator Testing
 
-HTML
-Several errors still to rectify, mainly on lifestyle page
+### Validator Testing 
 
-CSS
-10 errors were found when passing through the official (Jigsaw) validator
-Unfixed Bugs
+- HTML
+  - No errors were returned when passing through the official [W3C validator](https://responsibleuk.github.io/the-circle/index.html)
+- CSS
+  - 3 errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fvalidator.w3.org%2Fnu%2F%3Fdoc%3Dhttps%253A%252F%252Fcode-institute-org.github.io%252Flove-running-2.0%252Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en#css)
 
-You will need to mention unfixed bugs and why they were not fixed. This section should include shortcomings of the frameworks or technologies used. Although time can be a big variable to consider, paucity of time and difficulty understanding implementation is not a valid reason to leave bugs unfixed.
+### Unfixed Bugs
 
-6 awareness pages need to change main so it's not a child
+No bugs unfixed
 
 ## Deployment
 
@@ -200,12 +198,12 @@ Alternatively, if using Gitpod, you can click below to create your own workspace
 
 [![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/Responsibleuk/the-circle)
 
-Credits
-In this section you need to reference where you got your content, media and extra help from. It is common practice to use code from other repositories and tutorials, however, it is important to be very specific about these sources to avoid plagiarism.
+### Content 
 
-You can break the credits section up into Content and Media, depending on what you have included in your project.
+- The text for the Home page was taken from Wikipedia Article A
+- Instructions on how to implement form validation on the Sign Up page was taken from [Specific YouTube Tutorial](https://www.youtube.com/)
+- The icons in the footer were taken from [Font Awesome](https://fontawesome.com/)
 
-Content
 The content has been inspired by:
 https://drawdown.org/
 https://www.tonyrobbins.com/
@@ -215,7 +213,11 @@ https://news.sky.com/story/climate-change-seven-technology-solutions-that-could-
 https://www.onecommune.com/regeneration-with-paul-hawken-teacher-wisdom
 https://www.climategen.org/who-we-are/our-mission-and-vision/
 
-Media
+### Media
+
+- The photos used on the home and sign up page are from This Open Source site
+- The images used for the gallery page were taken from this other open source site
+
 https://unsplash.com/
 https://sdgs.un.org/goals
 
