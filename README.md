@@ -1,3 +1,5 @@
+![CI logo](../a)
+
 # The Circle
 
 The Circle aims to inform, educate and challenge the way we think helping to create a new collective consciousness that is needed to save our planet. We simplify the foundations of sustainability, explain the facts but also inspire people into taking action. The circle offers life coaching for individuals who want to not only become more sustainable but do it in such a way that it makes significant improvements in their own lives helping them to be healthier, happier and more successful.
