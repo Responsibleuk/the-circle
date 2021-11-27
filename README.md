@@ -1,4 +1,4 @@
-![CI logo](../assets/images/logo/the-circle-horizontal.png)
+![The Circle logo](../assets/images/logo/the-circle-horizontal.png)
 
 # The Circle
 
@@ -8,7 +8,6 @@ Mission
 Our mission is to create a global wellness community around the ideas and practices of sustainability, simplicity and resilience.
 
 Our first of it's kind sustainabile life strategy aims to not only bring the earth back to life, but also bring ourselves back to life, bringing our essence, our spirit, our sense of purpose back to life. It’s about bringing meaning to our lives.
-
 
 ## Features 
 
@@ -153,12 +152,12 @@ The user will be able to navigate to the lifestyle page to get solutions on how 
 Features Left to Implement
 Refine styling
 
-Testing
+## Testing
+
+
 In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your project’s features and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
 
 All features have been thoroughly checked and no bugs
-
-Un sdg's need to link to appropriate pages
 
 Some small bugs conbcerning alignment to be fixed.
 
