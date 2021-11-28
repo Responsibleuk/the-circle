@@ -19,9 +19,12 @@ This website is for anybody who wants to learn more about sustainability and tak
 Featured on all ten pages, the full responsive navigation bar includes links to the Logo, Home, Footprint, Inspiration, Awareness and The Truth page and is identical in each page to allow for easy navigation.
 
 This section will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button.
-The landing page image
+The landing page image.
+
+![Nav Bar](../images/)
 
 The landing includes a photograph with text overlay to allow the user to see exactly which location this site would be applicable to.
+
 This section introduces the user to The Circle with a bold image of melting polar ice caps and a brief description of our purpse.
 Who we are and what we do
 
@@ -36,9 +39,7 @@ The fo
 
 - __Awareness Section__
 
-The fo
 
-![Gallery](https://github.com/lucyrush/readme-template/blob/master/media/love_running_gallery.png)
 
 - __The Sign Up Page__
 
