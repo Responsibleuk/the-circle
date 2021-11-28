@@ -16,32 +16,63 @@ This website is for anybody who wants to learn more about sustainability and tak
 
 - __Navigation Bar__
 
-Featured on all ten pages, the full responsive navigation bar includes links to the Logo, Home, Footprint, Inspiration, Awareness and The Truth page and is identical in each page to allow for easy navigation.
+  - Featured on all twelve pages, the full responsive navigation bar includes links to the Home, Footprint, Hope, Lifestyle, Coaching and Join Us pages are identical in each page to allow for easy navigation.
+  - This section will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button.
 
-This section will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button.
-The landing page image.
+![Nav Bar](../images/readme-images/home-page/hero-home-screenshot.jpg)
 
-![Nav Bar](../images/)
+- __The landing page image__
 
-The landing includes a photograph with text overlay to allow the user to see exactly which location this site would be applicable to.
+  - The landing includes a photograph with text overlay to allow the user to see exactly which location this site would be applicable to. 
+  - This section introduces the user to Love Running with an eye catching animation to grab their attention
 
-This section introduces the user to The Circle with a bold image of melting polar ice caps and a brief description of our purpse.
-Who we are and what we do
-
-- __The Footer__
-
-- The footer section includes a field for users to submit their email.
-- The footer is valuable to the user as they will be able to register for our weekly newsletter on how to be more sustainable.
+![Landing Page](../images)
 
 - __Introduction Section__
 
-The fo
+  - Who we are
+
+![Landing Page](../images)
 
 - __Awareness Section__
 
+  - 6 issues
+
+![Awareness Section](../images)
+
+- __The Team__
+
+  - Description of our team
+
+![The Team](../images)
+
+- __The Footer__
+
+  - The footer section includes a field for users to submit their email.
+  - The footer is valuable to the user as they will be able to register for our weekly newsletter on how to be more sustainable.
+
+<!-- Awareness pages -->
+
+- __Awareness pages__
+
+  - 6 issues
+
+![Awareness Pages](../images)
 
 
-- __The Sign Up Page__
+The fo
+
+- __Footprint__
+
+- __Hope__
+
+- __Lifestyle__
+
+- __Coaching__
+
+- __Join Us__
+
+<!-- Testing -->
 
 ### Validator Testing 
 
