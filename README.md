@@ -6,7 +6,7 @@ Our mission is to create a global wellness community around the ideas and practi
 
 The Circle aims to inform, educate and challenge the way we think about sustainability and climate change.
 
-Our first of it's kind sustainabile life strategy aims to not only bring the earth back to life, but also bring ourselves back to life, bringing our essence, our spirit, our sense of purpose back to life. It’s about bringing meaning to our lives.
+Our first of it's kind sustainabile life strategy aims to not only bring the earth back to life, but also bring ourselves back to life, bringing our essence, our spirit, our sense of purpose back to life. It’s about bringing meaning to our lives while saving our planet.
 
 ## Features 
 
@@ -71,6 +71,15 @@ The fo
 - __Coaching__
 
 - __Join Us__
+
+<!-- additional features -->
+
+- __Footprint Calculator__
+
+- __Sustainability Products__
+
+- __Lifecoaching Online__
+
 
 <!-- Testing -->
 
