@@ -4,9 +4,13 @@
 
 Our mission is to create a global wellness community around the ideas and practices of sustainability, simplicity and resilience.
 
+We call it sustainable life strategies and you can think of it as a cross between Greta Thunberg and Tony Robbins.
+
 The Circle aims to inform, educate and challenge the way we think about sustainability and climate change.
 
-Our first of it's kind sustainabile life strategy aims to not only bring the earth back to life, but also bring ourselves back to life, bringing our essence, our spirit, our sense of purpose back to life. It’s about bringing meaning to our lives while saving our planet.
+It is a first of it's kind personal development agency tha aims to not only bring the earth back to life, but also bring ourselves back to life, bringing our essence, our spirit, our sense of purpose back to life. It’s about bringing meaning to our lives while saving our planet.
+
+The website begins with educating users about sustainability, as you progress through the site you learn more including reasons to be hopefull. This is meant to inspire people into action before moving onto things people can actually do in there own lives, finally the site tells users about the coaching services offered from The Circle.
 
 ## Features 
 
@@ -21,50 +25,71 @@ This website is for anybody who wants to learn more about sustainability and tak
   - This section allows users to easily see what page they are on, as the current page is highlighted. highlighted 
   - When on one of the 6 awareness pages no page will be highlighted.
 
-![Nav Bar](assets/markdown/section-images/home-page/nav-bar.png)
-
-- __The landing page image__
-
-  - The landing includes a photograph with text overlay to allow the user to see exactly what The Circle is about. The wo
-  - This section introduces the user to Love Running with an eye catching animation to grab their attention
-
-![Landing Page](assets/markdown/section-images/hero-home-sreenshot.jpg)
-
-- __Introduction Section__
-  - The introduction section lets user know what The Circle does and what our mission is
-
-![Introduction](assets/markdown/section-images/introduction-mission)
-
-- __Awareness Section__
-
-  - 6 issues
-
-![Awareness Section](../images)
-
-- __The Team__
-
-  - Description of our team
-
-![The Team](assets/markdown/section-images/the-team.png)
+![Nav Bar](markdown/images/nav-bar.png)
 
 - __The Footer__
 
+  - Featured on all twelve pages, so users have a constant call to action to register their email address.
   - The footer section includes a field for users to submit their email.
   - The footer is valuable to the user as they will be able to register for our weekly newsletter on how to be more sustainable.
-  - The 
+  - The email address has to entered before the user can click join.
 
-![The Footer](assets/markdown/section-images/footer.png)
+![The Footer](markdown/images/footer.png)
 
-<!-- Awareness pages -->
+- __The landing page image__
 
-- __Awareness pages__
+  - The landing page includes a photograph with text overlay to allow the user to see exactly what The Circle is about. The world's first sustainability life startegy agency.
 
-  - 6 issues
+![Landing Page](markdown/images/hero-home-screenshot.jpg)
 
-![Awareness Pages](../images)
+- __Introduction Section__
+  - The introduction section lets user know what The Circle does and what our mission is.
 
+![Introduction](markdown/images/introduction-mission.jpg)
 
-The fo
+- __Awareness Section__
+
+  - The awareness section exists to draw the users attention to issues surrounding sustainability
+  - We have picked 6 issues that the user may or may not be aware of. If the user wants to find out more information they are easily able to navigated to a dedicated page with more information on that issue. 
+
+![Awareness Section](markdown/images/awareness-section.png)
+
+- __The Team__
+
+  - The Team sections gives users some background about the team behind the circle.
+  - This is important for the user to see The Circle is a credible organisation.
+
+![The Team](markdown/images/team.png)
+
+- __Awareness Section Individual Pages__
+
+ - The awareness section individual pages all have the same structure, consisting of a relevant hero image, 2 columns, the left hand column is the overview the right hand column is the solutions
+ - There is a button so users can easily share to facebook.
+ - The user can easily navigate to the next page by clicking next, this saves time having to go back to the home page. 
+
+- __Rewilding__
+
+  - Nature has the power to heal itself and to heal us, if we let it. That’s what rewilding is all about.
+
+- __Education of Girls__
+
+  - Women with more years of education have fewer and healthier children, and actively manage their reproductive health.
+
+- __Waste__
+
+  - Roughly a third of the world’s food is never eaten, which means greenhouse gases emitted in producing it were unnecessary.
+
+- __Building Management__
+
+  - Fluorinated gases have a potent greenhouse effect and are widely used as refrigerants. Managing leaks and disposal of these chemicals can avoid emissions in buildings and landfills.
+
+- __CLimate Justice__
+
+  - Not all climate impacts are created equal, or distributed equally. From extreme weather to rising sea levels, the effects of climate change often have disproportionate effects on historically marginalized communities.
+
+- __Renewable Energy__
+
+  - Already, economics favor wind and sun over fossil fuels in many places. A shift away from coal-powered electricity is underway in the United States, the United Kingdom, and much of Europe.
 
 - __Footprint__
 
@@ -76,9 +101,11 @@ The fo
 
 - __Join Us__
 
-<!-- additional features -->
+### Features Left to Implement
 
 - __Footprint Calculator__
+
+- __Recipies__
 
 - __Sustainability Products__
 
@@ -102,6 +129,8 @@ If this section grows too long, you may want to split it off into a separate fil
 - __Footer__
 
  - You are not able to click join unless you enter your email address.
+
+
 
 
 ### Validator Testing 
