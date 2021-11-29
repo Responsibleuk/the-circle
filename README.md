@@ -18,21 +18,22 @@ This website is for anybody who wants to learn more about sustainability and tak
 
   - Featured on all twelve pages, the full responsive navigation bar includes links to the Home, Footprint, Hope, Lifestyle, Coaching and Join Us pages are identical in each page to allow for easy navigation.
   - This section will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button.
+  - This section allows users to easily see what page they are on, as the current page is highlighted. highlighted 
+  - When on one of the 6 awareness pages no page will be highlighted.
 
 ![Nav Bar](assets/markdown/section-images/home-page/nav-bar.png)
 
 - __The landing page image__
 
-  - The landing includes a photograph with text overlay to allow the user to see exactly which location this site would be applicable to. 
+  - The landing includes a photograph with text overlay to allow the user to see exactly what The Circle is about. The wo
   - This section introduces the user to Love Running with an eye catching animation to grab their attention
 
-![Landing Page](asset)
+![Landing Page](assets/markdown/section-images/hero-home-sreenshot.jpg)
 
 - __Introduction Section__
+  - The introduction section lets user know what The Circle does and what our mission is
 
-  - Who we are
-
-![Landing Page](../images)
+![Introduction](assets/markdown/section-images/introduction-mission)
 
 - __Awareness Section__
 
@@ -44,7 +45,7 @@ This website is for anybody who wants to learn more about sustainability and tak
 
   - Description of our team
 
-![The Team](../images)
+![The Team](assets/markdown/section-images/the-team.png)
 
 - __The Footer__
 
@@ -52,7 +53,7 @@ This website is for anybody who wants to learn more about sustainability and tak
   - The footer is valuable to the user as they will be able to register for our weekly newsletter on how to be more sustainable.
   - The 
 
-![The Footer](../images)
+![The Footer](assets/markdown/section-images/footer.png)
 
 <!-- Awareness pages -->
 
@@ -100,9 +101,7 @@ If this section grows too long, you may want to split it off into a separate fil
 
 - __Footer__
 
-You are not able to click join 
-
-
+ - You are not able to click join unless you enter your email address.
 
 
 ### Validator Testing 
