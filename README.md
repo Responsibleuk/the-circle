@@ -71,9 +71,13 @@ This website is for anybody who wants to learn more about sustainability and tak
 
   - Nature has the power to heal itself and to heal us, if we let it. That’s what rewilding is all about.
 
+  ![The Team](markdown/images/rewilding.png)
+
 - __Education of Girls__
 
   - Women with more years of education have fewer and healthier children, and actively manage their reproductive health.
+
+  ![The Team](markdown/images/education.png)
 
 - __Waste__
 
