@@ -1,4 +1,4 @@
-![The Circle logo](../assets/images/logo/the-circle-horizontal.png)
+![The Circle logo](assets/images/logo/the-circle-horizontal.png)
 
 # The Circle
 
@@ -19,14 +19,14 @@ This website is for anybody who wants to learn more about sustainability and tak
   - Featured on all twelve pages, the full responsive navigation bar includes links to the Home, Footprint, Hope, Lifestyle, Coaching and Join Us pages are identical in each page to allow for easy navigation.
   - This section will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button.
 
-![Nav Bar](../images/readme-images/home-page/hero-home-screenshot.jpg)
+![Nav Bar](assets/markdown/section-images/home-page/nav-bar.png)
 
 - __The landing page image__
 
   - The landing includes a photograph with text overlay to allow the user to see exactly which location this site would be applicable to. 
   - This section introduces the user to Love Running with an eye catching animation to grab their attention
 
-![Landing Page](../images)
+![Landing Page](asset)
 
 - __Introduction Section__
 
