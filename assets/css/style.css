@@ -1446,12 +1446,12 @@ padding-right: 20px;
   #logo {
     position: absolute;
     top: 0px;
-    left: 35vw;
+    left: 45vw;
   }
 
   #hero-image-main-text {
     position: absolute; 
-    top: 0px; 
+    top: 250px; 
     left: 10px;
     font-size: 35px;
     text-size-adjust: 100%;
@@ -1459,7 +1459,7 @@ padding-right: 20px;
     background: rgba(255, 255, 255, 0.7);
     padding: 10px; 
   }
-  }
+  
   .mobile-remove {
     display: none;
   }
@@ -1599,17 +1599,17 @@ padding-right: 20px;
       padding-left: 5px;
       width: 80%;
       float: left;
-}
+      }
 
-#footprint-body {
+  #footprint-body {
   background-color: white;
   padding-top: 30px;
   padding-left: 5px;
   width: 80%;
   float: left;
-}
+  }
 
-#net-zero-neutral {
+  #net-zero-neutral {
   display: block;
   justify-content: flex-start;
   flex-direction: row;
@@ -1617,22 +1617,22 @@ padding-right: 20px;
   background-color: white;
   padding-top: 50px;
   padding-left: 0px;
-}
+  }
 
-.hope-figure {
+  .hope-figure {
   background-color: white;
   display: flex;
   flex-flow: column;
   width: 55vw;
-}
+  }
 
-#offsetting-introduction-container {
+  #offsetting-introduction-container {
   background-color: white;
   padding-left: 5vw;
   padding-right: 5vw;
-}
+  }
 
-#hero-image-footprint-text {
+  #hero-image-footprint-text {
   position: absolute;
   color: #fff;
   text-align: center;
@@ -1643,9 +1643,9 @@ padding-right: 20px;
   text-size-adjust: 300%;
   letter-spacing: 4px;
   padding: 10px;
-}
+  }
 
-#hero-image-hope-text {
+  #hero-image-hope-text {
   position: absolute;
   top: 375px;
   color: #fdfdfd;
@@ -1653,9 +1653,9 @@ padding-right: 20px;
   font-size: 25px;
   letter-spacing: 4px;
   padding: 10px;
-}
+  }
 
-#un-container {
+  #un-container {
   background-color:white;
   padding-left: 5px;
   padding-right: 5px;
@@ -1702,9 +1702,9 @@ padding-right: 20px;
       display: none;
     }
       
-/* hope page */
+  /* hope page */
 
-.hope-container {
+  .hope-container {
   display: block;
   justify-content: flex-start;
   flex-direction: row;
@@ -1731,40 +1731,40 @@ padding-right: 20px;
 
   /* technology */
 
-#hope-tech-container {
+  #hope-tech-container {
   background-color:white;
   padding-left: 10px;
   padding-right: 0px;
   }
 
-.tech-highlight {
+  .tech-highlight {
   color: #0C3C60;
   /* padding-left: 50px; */
-}
+  }
 
-.tech-figure {
+  .tech-figure {
   display: block;
   flex-flow: row;
   justify-content: flex-start;
   left: 0;
-}
+  }
 
-.tech-img {
+  .tech-img {
   width: 75vw;
   margin-bottom: 0;
   margin-left: 0;
-}
+  }
 
-.tech-figcaption {
+  .tech-figcaption {
   align-self: flex-start;
   border-left: none;
   padding-left: 0;
   margin-left: 0;
   width: 75vw;
 
-}
+  }
 
-#cop-about-container {
+  #cop-about-container {
   background-color:white;
   width: 83%;
   padding-left: 0px;
@@ -1778,31 +1778,31 @@ padding-right: 20px;
     background-color: #fdfdfd;
     overflow: hidden;
     padding: 0px;
-}
+  }
 
-.cop-inner-container{
+  .cop-inner-container{
     width: 100%;
     float: left;
     background-color: #fdfdfd;
     padding: 0px;
-}
+  }
 
-.cop-inner-container h1{
+  .cop-inner-container h1{
     margin-bottom: 0px;
     font-size: 30px;
     font-weight: 900;
-}
+  }
 
-.cop-text{
+  .cop-text{
     font-size: 15px;
     color: black;
     line-height: 30px;
     text-align: justify;
     margin-bottom: 10px;
     padding-right: 100px;
-}
+  }
 
-#protest-about-container {
+  #protest-about-container {
   background-color:white;
   width: 95vw;
   padding-left: 0px;
@@ -1816,22 +1816,22 @@ padding-right: 20px;
     background-color: #fdfdfd;
     overflow: hidden;
     padding: 0px;
-}
+  }
 
-.protest-inner-container{
+  .protest-inner-container{
     width: 90%;
     float: left;
     background-color: #fdfdfd;
     padding: 5px;
-}
+  }
 
-.protest-inner-container h1{
+  .protest-inner-container h1{
     margin-bottom: 30px;
     font-size: 30px;
     font-weight: 900;
-}
-/* coaching */
-#life-coaching-about-container {
+  }
+  /* coaching */
+  #life-coaching-about-container {
   background-color:white;
   width: 85vw;
   padding-right: 10px;
@@ -1944,8 +1944,8 @@ padding-right: 20px;
         padding-bottom: 1vw;
       }
 
-/* diet */
-#diet-about-container {
+  /* diet */
+  #diet-about-container {
   background-color:white;
   width: 100%;
   }
@@ -1956,9 +1956,9 @@ padding-right: 20px;
     background-size: 100%;
     overflow: hidden;
     padding: 0px;
-}
+  }
 
-.diet-inner-container{
+  .diet-inner-container{
   position: relative;
   left: 0px;
   /* top: 50px; */
@@ -1968,27 +1968,27 @@ padding-right: 20px;
   padding-bottom: 10px;
   padding-left: 2px;
   padding-right: 2px;
-}
+  }
 
-.diet-inner-container h1{
+  .diet-inner-container h1{
     margin-bottom: 10px;
     font-size: 30px;
     font-weight: 900;
-}
+  }
 
-.diet-text{
+  .diet-text{
     font-size: 15px;
     color: black;
     line-height: 30px;
     text-align: justify;
-}
+  }
 
 
 
  /* mind */
  
 
-#mind-about-container {
+  #mind-about-container {
   background-color:white;
   width: 100%;
   }
@@ -1999,9 +1999,9 @@ padding-right: 20px;
     background-size: 100%;
     overflow: hidden;
     padding: 0px;
-}
+  }
 
-.mind-inner-container{
+  .mind-inner-container{
   position: relative;
   left: 0px;
   /* top: 50px; */
@@ -2011,24 +2011,24 @@ padding-right: 20px;
   padding-bottom: 10px;
   padding-left: 2px;
   padding-right: 2px;
-}
+  }
 
-.mind-inner-container h1{
+  .mind-inner-container h1{
     margin-bottom: 10px;
     font-size: 30px;
     font-weight: 900;
-}
+  }
 
-.mind-text{
+  .mind-text{
     font-size: 15px;
     color: black;
     line-height: 30px;
     text-align: justify;
-}
+  }
 
 
-/* exercise */
-#exercise-about-container {
+  /* exercise */
+  #exercise-about-container {
   background-color:white;
   width: 100%;
   }
@@ -2039,9 +2039,9 @@ padding-right: 20px;
     background-size: 100%;
     overflow: hidden;
     padding: 0px;
-}
+  }
 
-.exercise-inner-container{
+  .exercise-inner-container{
   position: relative;
   left: 0px;
   /* top: 50px; */
@@ -2051,22 +2051,22 @@ padding-right: 20px;
   padding-bottom: 10px;
   padding-left: 2px;
   padding-right: 2px;
-}
+  }
 
-.exercise-inner-container h1{
+  .exercise-inner-container h1{
     margin-bottom: 10px;
     font-size: 30px;
     font-weight: 900;
-}
+  }
 
-.exercise-text{
+  .exercise-text{
     font-size: 15px;
     color: black;
     line-height: 30px;
     text-align: justify;
-}
+  }
 
-.hope-heading {
+  .hope-heading {
   color: #fff;
   font-weight: bolder;
   padding: 20px;
@@ -2074,87 +2074,87 @@ padding-right: 20px;
   width: 90vw;
   left: 0;
   overflow: hidden;
-}
+  }
 
-header {
+  header {
   padding-right: 0px;
   padding-left: 0px;
-} 
+  } 
 
-#menu {
+  #menu {
   font-size: 80%;
   letter-spacing: 4px;
   background-color: #fff;
   vertical-align: top;
   padding: 20px;
-}
+  }
 
-#menu,
-menu ul {
+  #menu,
+  menu ul {
   display: block;
   justify-content: flex-end;
   flex-direction: row;
   flex-wrap: wrap;
   width: 100%;
-}
+  }
 
-#menu,
-#menu li {
+  #menu,
+  #menu li {
   list-style-type: none;
   font-size: large;
   margin-right: 10px;
 
-}
+  }
 
-#menu a {
+  #menu a {
   text-decoration: none;
   color: inherit;
-}
+  }
 
-#menu a:hover {
+  #menu a:hover {
   font-weight: bold;
   border: none;
   padding: 0px;
-}
+  }
 
-.active {
+  .active {
   font-weight: bold;
   border: none;
   padding: 0px;
-}
+  }
 
-#awareness-intro-image {
+  #awareness-intro-image {
   display: block;
   flex-flow: row;
   justify-content: flex-start;
   width: 95vw;
   height: auto;
-}
+  }
 
-#awareness-intro-image-caption {
+  #awareness-intro-image-caption {
   align-self: flex-start;
   padding-left: 0em;
   margin-left: 0em;
   width: 90vw;
   padding-right: 0px;
-}
+  }
 
-#awareness-image-container {
+  #awareness-image-container {
   background-color: white;       
   padding-left: 0px;
   padding-right: 0px;
   }
 
-.awareness-intro { 
+  .awareness-intro { 
   position: relative; 
   width: 100%; 
-}
+  }
 
-.awareness-intro-h { 
+  .awareness-intro-h { 
   position: absolute; 
   top: 200px; 
   left: 30px; 
   width: 100%; 
-}
+  }
 
 }
