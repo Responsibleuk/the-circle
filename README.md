@@ -71,21 +71,25 @@ This website is for anybody who wants to learn more about sustainability and tak
 
   - Nature has the power to heal itself and to heal us, if we let it. That’s what rewilding is all about.
 
-  ![The Team](markdown/images/rewilding.png)
+  ![Rewilding](markdown/images/rewilding.png)
 
 - __Education of Girls__
 
   - Women with more years of education have fewer and healthier children, and actively manage their reproductive health.
 
-  ![The Team](markdown/images/education.png)
+  ![Education of Girls](markdown/images/education.png)
 
 - __Waste__
 
   - Roughly a third of the world’s food is never eaten, which means greenhouse gases emitted in producing it were unnecessary.
 
+  ![Waste](markdown/images/waste.png)
+
 - __Building Management__
 
   - Fluorinated gases have a potent greenhouse effect and are widely used as refrigerants. Managing leaks and disposal of these chemicals can avoid emissions in buildings and landfills.
+
+  ![Building Management](markdown/images/building.png)
 
 - __Climate Justice__
 
@@ -104,6 +108,8 @@ This website is for anybody who wants to learn more about sustainability and tak
 - __Coaching__
 
 - __Join Us__
+
+ - ![Join Us](markdown/images/join-us.png)
 
 ### Features Left to Implement
 
