@@ -109,7 +109,11 @@ This website is for anybody who wants to learn more about sustainability and tak
 
 - __Footprint Calculator__
 
+ - We are going to create a carbon footprint calculator, users can inpuyt their activity and we will calculate their impact on the environment.  
+
 - __Recipies__
+
+ - 
 
 - __Sustainability Products__
 
