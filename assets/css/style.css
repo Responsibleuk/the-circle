@@ -1450,7 +1450,15 @@ padding-right: 20px;
   }
 
   #hero-image-main-text {
-    left: 0px;
+    position: absolute; 
+    top: 0px; 
+    left: 10px;
+    font-size: 35px;
+    text-size-adjust: 100%;
+    letter-spacing: 4px;  
+    background: rgba(255, 255, 255, 0.7);
+    padding: 10px; 
+  }
   }
   .mobile-remove {
     display: none;

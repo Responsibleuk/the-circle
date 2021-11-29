@@ -83,7 +83,7 @@ This website is for anybody who wants to learn more about sustainability and tak
 
   - Fluorinated gases have a potent greenhouse effect and are widely used as refrigerants. Managing leaks and disposal of these chemicals can avoid emissions in buildings and landfills.
 
-- __CLimate Justice__
+- __Climate Justice__
 
   - Not all climate impacts are created equal, or distributed equally. From extreme weather to rising sea levels, the effects of climate change often have disproportionate effects on historically marginalized communities.
 
@@ -137,6 +137,38 @@ If this section grows too long, you may want to split it off into a separate fil
 
 - HTML
   - No errors were returned when passing through the official [W3C validator](https://responsibleuk.github.io/the-circle/index.html)
+
+- __The landing page image__
+
+![Landing Page Validator Testing](markdown/verification/) 
+
+- __Rewilding__
+
+![Rewilding Validator Testing](markdown/verification/screenshot-rewilding-test.png)
+
+- __Education of Girls__
+
+- __Waste__
+
+- __Building Management__
+
+- __Climate Justice__
+
+- __Renewable Energy__
+
+- __Footprint__
+
+- __Hope__
+
+- __Lifestyle__
+
+- __Coaching__
+
+- __Join Us__
+
+
+
+
 - CSS
   - 3 errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fvalidator.w3.org%2Fnu%2F%3Fdoc%3Dhttps%253A%252F%252Fcode-institute-org.github.io%252Flove-running-2.0%252Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en#css)
 
@@ -221,18 +253,3 @@ https://publishing-project.rivendellweb.net/using-figures-and-flex-box-to-align-
 
 
 
-Other General Project Advice
-Below you will find a couple of extra tips that may be helpful when completing your project. Remember that each of these projects will become part of your final portfolio so it’s important to allow enough time to showcase your best work!
-
-One of the most basic elements of keeping a healthy commit history is with the commit message. When getting started with your project, read through this article by Chris Beams on How to Write a Git Commit Message
-
-Make sure to keep the messages in the imperative mood
-When naming the files in your project directory, make sure to consider meaningful naming of files, point to specific names and sections of content.
-
-For example, instead of naming an image used ‘image1.png’ consider naming it ‘landing_page_img.png’. This will ensure that there are clear file paths kept.
-Do some extra research on good and bad coding practices, there are a handful of useful articles to read, consider reviewing the following list when getting started:
-
-Writing Your Best Code
-HTML & CSS Coding Best Practices
-Google HTML/CSS Style Guide
-Getting started with your Portfolio Projects can be daunting, planning your project can make it a lot easier to tackle, take small steps to reach the final outcome and enjoy the process!
