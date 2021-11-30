@@ -101,13 +101,9 @@ This website is for anybody who wants to learn more about sustainability and tak
 
   - Already, economics favor wind and sun over fossil fuels in many places. A shift away from coal-powered electricity is underway in the United States, the United Kingdom, and much of Europe.
 
-- __Footprint__
+- __Footprint Page__
 
- - __Footprint Hero Image__
-
- - The landing page includes a photograph climate change protestors with an inspirational text overlay 
-
- - ![Hope Hero](markdown/images/hope-hero.jpg)
+ - The fotprint page informs users about the terms carbon footprint, net zero and carbon offsetting.
 
   - ![Footprint Hero](markdown/images/footprint-hero.png)
 
@@ -115,29 +111,47 @@ This website is for anybody who wants to learn more about sustainability and tak
 
   - ![Offsetting section](markdown/images/footprint-offsetting.png)
 
-- __Hope__
+- __Hope Page__
 
-- __Hope Hero Image__
-
- - The landing page includes a photograph climate change protestors with an inspirational text overlay 
+ - The hope page exists to inform users about what is happening to make the world more sustainable.
 
  - ![Hope Hero](markdown/images/hope-hero.jpg)
 
- - The user will be able to click on the releva
+ - The user will be able to click on the relevant circular image and will be navigated to the relevant section.
 
  - ![Hope Solution Navigation Section](markdown/images/hope-solutions.jpg)
 
-- __Lifestyle__
+ - This section will tell the user about the school protests for climate change.
 
-- The landing page includes a photograph climate change protestors with an inspirational text overlay 
+ - ![Hope Solution Navigation Section](markdown/images/hope-protest.jpg)
+
+ - This section will tell the user about the COP26 conference.
+
+ - ![Hope Solution Navigation Section](markdown/images/hope-cop.jpg)
+
+  - This section will tell the user about technology that is being developed to combat climate change.
+
+ - ![Hope Solution Navigation Section](markdown/images/hope-tech.jpg)
+
+- __Lifestyle Page__
+
+- The landing page includes a photograph with an inspirational quote text overlay 
 
  - ![Hope Hero](markdown/images/hope-hero.jpg)
 
 - __Coaching__
 
+- __Coaching Hero Image__
+
+  - The landing page includes a photograph with an text overlay describing who the course is for. 
+
   - ![Coaching Hero](markdown/images/coaching-hero.jpg)
 
+  - The section tells the user about life coaching.
+
   - ![Coaching About Section](markdown/images/coaching-about.jpg)
+
+  - This section explains to the user that your coach may not be better than you but will bring the best out in you.
 
   - ![Will my coach be better than me](markdown/images/coaching-better.jpg)
 
@@ -171,9 +185,20 @@ This website is for anybody who wants to learn more about sustainability and tak
 
  - ![Carousel Mozilla](markdown/images/mozilla-carousel.jpg)
 
+ - There were no additional problems when testing on Mozilla.
+
+ - ![Mozilla First Test](markdown/images/mozilla-test-1.jpg)
+
+ - ![Mozilla Second Test](markdown/images/mozilla-test-2.jpg)
+
+ - ![Mozilla Third Test](markdown/images/mozilla-test-3.jpg)
+
+ - ![Mozilla Fourth Test](markdown/images/mozilla-test-4.jpg)
+
 - __Edge__
 
- - 
+ - There were no errors when testing on edge.
+
  - ![First Edge Test](markdown/images/edge-test-1.jpg)
 
  - ![Second Edge Test](markdown/images/edge-test-2.jpg)
@@ -186,6 +211,14 @@ This website is for anybody who wants to learn more about sustainability and tak
 
  - ![Footer Test](markdown/images/footer-test.png)
 
+- __Responsiveness__
+
+ - The site is responsive and reads well on all devices and browsers.
+
+ - This image shows the site minimised on Chrome, Edge and Mozilla.
+
+ - ![Responsiveness Image](markdown/images/three-browsers-mobile.png)
+
 ### Validator Testing 
 
 - __Html__
@@ -194,7 +227,7 @@ This website is for anybody who wants to learn more about sustainability and tak
 
 - __The landing page image__
 
- - ![Landing Page Validator Testing](markdown/verification/) 
+ - ![Landing Page Validator Testing](markdown/verification/screenshot-home-test.png) 
 
 - __Rewilding__
 
@@ -278,19 +311,19 @@ Alternatively, if using Gitpod, you can click below to create your own workspace
 - Instructions on how to implement form validation on the Sign Up page was taken from [Specific YouTube Tutorial](https://www.youtube.com/)
 - The icons in the footer were taken from [Font Awesome](https://fontawesome.com/)
 
-The content has been inspired by:
-https://drawdown.org/
-https://www.tonyrobbins.com/
-https://www.onecommune.com/login
-https://sdgs.un.org/goals
-https://news.sky.com/story/climate-change-seven-technology-solutions-that-could-help-solve-crisis-12056397
-https://www.onecommune.com/regeneration-with-paul-hawken-teacher-wisdom
-https://www.climategen.org/who-we-are/our-mission-and-vision/
+ - The content has been inspired by:
+ - https://drawdown.org/
+ - https://www.tonyrobbins.com/
+ - https://www.onecommune.com/login
+ - https://sdgs.un.org/goals
+ - https://news.sky.com/story/climate-change-seven-technology-solutions-that-could-help-solve-crisis-12056397
+ - https://www.onecommune.com/regeneration-with-paul-hawken-teacher-wisdom
+ - https://www.climategen.org/who-we-are/our-mission-and-vision/
 
 - Hope source
 https://news.sky.com/story/climate-change-seven-technology-solutions-that-could-help-solve-crisis-12056397
 
- - Methodology source
+ - Carousel source
 https://freefrontend.com/css-carousels/#horizontal-carousels
 https://codepen.io/onion2k/pen/xxZYBVj
 
@@ -298,7 +331,7 @@ https://codepen.io/onion2k/pen/xxZYBVj
 
 - The photos used on the site are from This Open Source site
 
-https://unsplash.com/
+ - https://unsplash.com/
 
 - The images used for the UN SDG's are used from this Open Source site 
 
@@ -320,7 +353,7 @@ https://www.wren.co/offset-anything
  - Lifestyle page layout
 https://tympanus.net/codrops/2012/06/12/css-only-responsive-layout-with-smooth-transitions/
 
- - Carousel
+ - Carousel source https://freefrontend.com/css-carousels/#horizontal-carousels
 https://codepen.io/onion2k/pen/xxZYBVj
 
  - General
