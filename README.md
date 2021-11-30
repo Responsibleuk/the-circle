@@ -1,6 +1,8 @@
-![The Circle logo](assets/images/logo/the-circle-horizontal.png)
+![The Circle Responsive Website](assets/images/logo/the-circle-horizontal.png)
 
 # The Circle
+
+![The Circle logo](assets/images/responsive.png)
 
 Our mission is to create a global wellness community around the ideas and practices of sustainability, simplicity and resilience.
 
@@ -103,9 +105,9 @@ This website is for anybody who wants to learn more about sustainability and tak
 
   - ![Footprint Hero](markdown/images/footprint-hero.png)
 
-  - ![Footprint Hero](markdown/images/footprint-image.png)
+  - ![Emmissions and sinks image](markdown/images/footprint-image.png)
 
-  - ![Footprint Hero](markdown/images/footprint-offsetting.png)
+  - ![Offsetting section](markdown/images/footprint-offsetting.png)
 
 - __Hope__
 
@@ -113,7 +115,11 @@ This website is for anybody who wants to learn more about sustainability and tak
 
 - __Coaching__
 
-  - ![Join Us](markdown/images/join-us.png)
+  - ![Coaching Hero](markdown/images/coaching-hero.jpg)
+
+  - ![Coaching About Section](markdown/images/coaching-about.jpg)
+
+  - ![Will my coach be better than me](markdown/images/coaching-better.jpg)
 
 - __Join Us__
 
@@ -127,26 +133,25 @@ This website is for anybody who wants to learn more about sustainability and tak
 
 - __Recipies__
 
- - 
-
-- __Sustainability Products__
-
-- __Lifecoaching Online__
-
-
-<!-- Testing -->
+ - To help users improve their diets we will be creating recipe pages for plant based, healthy and delicious food.
 
 ## Testing 
 
-In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your project’s features and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
+- __Different Browsers__
 
-In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
+ - The site tests well on different browsers, I noticed one difference on Mozilla, see below.
 
-You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
+- __Chrome__
 
-If this section grows too long, you may want to split it off into a separate file and link to it from here.
+ - All previous screenshots in this document have been taken from Chrome.
 
-- __Header__
+- __Mozilla__
+
+ - Carousel works perfectly but looks different in Mozilla, it is alingned to the left rather than center as it is in other browsers.
+
+ - ![Carousel Mozilla](markdown/images/mozilla-carousel.jpg)
+
+- __Edge__
 
 - __Footer__
 
@@ -154,14 +159,10 @@ If this section grows too long, you may want to split it off into a separate fil
 
  - ![Footer Test](markdown/images/footer-test.png)
 
-
-
-
-
-
 ### Validator Testing 
 
-- HTML
+- __Html__
+
   - No errors were returned when passing through the official [W3C validator](https://responsibleuk.github.io/the-circle/index.html)
 
 - __The landing page image__
@@ -184,20 +185,31 @@ If this section grows too long, you may want to split it off into a separate fil
 
 - __Renewable Energy__
 
+- ![Renewables Validator Testing](markdown/verification/screenshot-renewables-test.png)
+
 - __Footprint__
+
+- ![Footprint Validator Testing](markdown/verification/screenshot-footprint-test.png)
 
 - __Hope__
 
+- ![Hope Validator Testing](markdown/verification/screenshot-hope-test.png)
+
 - __Lifestyle__
+
+- ![Lifestyle Validator Testing](markdown/verification/screenshot-lifestyle-test.png)
 
 - __Coaching__
 
 - __Join Us__
 
+- ![Join Us Validator Testing](markdown/verification/screenshot-join-us-test.png)
 
 
 
-- CSS
+
+- __CSS__
+
   - 3 errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fvalidator.w3.org%2Fnu%2F%3Fdoc%3Dhttps%253A%252F%252Fcode-institute-org.github.io%252Flove-running-2.0%252Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en#css)
 
  - ![CSS Validator Testing](markdown/verification/screenshot-css-test.png)
