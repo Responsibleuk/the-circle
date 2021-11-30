@@ -101,11 +101,19 @@ This website is for anybody who wants to learn more about sustainability and tak
 
 - __Footprint__
 
+  - ![Footprint Hero](markdown/images/footprint-hero.png)
+
+  - ![Footprint Hero](markdown/images/footprint-image.png)
+
+  - ![Footprint Hero](markdown/images/footprint-offsetting.png)
+
 - __Hope__
 
 - __Lifestyle__
 
 - __Coaching__
+
+  - ![Join Us](markdown/images/join-us.png)
 
 - __Join Us__
 
@@ -144,6 +152,10 @@ If this section grows too long, you may want to split it off into a separate fil
 
  - You are not able to click join unless you enter your email address.
 
+ - ![Footer Test](markdown/images/footer-test.png)
+
+
+
 
 
 
@@ -154,13 +166,15 @@ If this section grows too long, you may want to split it off into a separate fil
 
 - __The landing page image__
 
-![Landing Page Validator Testing](markdown/verification/) 
+ - ![Landing Page Validator Testing](markdown/verification/) 
 
 - __Rewilding__
 
-![Rewilding Validator Testing](markdown/verification/screenshot-rewilding-test.png)
+ - ![Rewilding Validator Testing](markdown/verification/screenshot-rewilding-test.png)
 
 - __Education of Girls__
+
+ - ![Education of Girls Validator Testing](markdown/verification/screenshot-education-test.png)
 
 - __Waste__
 
@@ -185,6 +199,8 @@ If this section grows too long, you may want to split it off into a separate fil
 
 - CSS
   - 3 errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fvalidator.w3.org%2Fnu%2F%3Fdoc%3Dhttps%253A%252F%252Fcode-institute-org.github.io%252Flove-running-2.0%252Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en#css)
+
+ - ![CSS Validator Testing](markdown/verification/screenshot-css-test.png)
 
 ### Unfixed Bugs
 
@@ -224,45 +240,43 @@ https://news.sky.com/story/climate-change-seven-technology-solutions-that-could-
 https://www.onecommune.com/regeneration-with-paul-hawken-teacher-wisdom
 https://www.climategen.org/who-we-are/our-mission-and-vision/
 
+- Hope source
+https://news.sky.com/story/climate-change-seven-technology-solutions-that-could-help-solve-crisis-12056397
+
+ - Methodology source
+https://freefrontend.com/css-carousels/#horizontal-carousels
+https://codepen.io/onion2k/pen/xxZYBVj
+
 ### Media
 
-- The photos used on the home and sign up page are from This Open Source site
-- The images used for the gallery page were taken from this other open source site
+- The photos used on the site are from This Open Source site
 
 https://unsplash.com/
+
+- The images used for the UN SDG's are used from this Open Source site 
+
 https://sdgs.un.org/goals
 
 
-Code
+### Code
 
-Favicon icon code
-https://www.codegrepper.com/code-examples/html/%3Clink+rel%3D%22icon%22+type%3D%22image%2Fpng%22+href%3D%22assets%2Fimg%2Ffavicon.png%22%3E
+ - Favicon icon code https://www.codegrepper.com/code-examples/html/%3Clink+rel%3D%22icon%22+type%3D%22image%2Fpng%22+href%3D%22assets%2Fimg%2Ffavicon.png%22%3E
 
-navigation responsive
+ - Navigation responsive
 https://codepen.io/victorcopque/pen/OVxRbq
 
-About us styling
-https://www.youtube.com/watch?v=8kS1B5iaBmg
-
-Offsetting styling
+ - Offsetting styling
 http://bluegalaxy.info/codewalk/2018/04/05/html-css-expand-text-hover/
 
 https://www.wren.co/offset-anything
 
-Lifestyle page layout
+ - Lifestyle page layout
 https://tympanus.net/codrops/2012/06/12/css-only-responsive-layout-with-smooth-transitions/
 
-Hope source
-https://news.sky.com/story/climate-change-seven-technology-solutions-that-could-help-solve-crisis-12056397
-
-Methodology source
-https://freefrontend.com/css-carousels/#horizontal-carousels
+ - Carousel
 https://codepen.io/onion2k/pen/xxZYBVj
 
-Carousel
-https://codepen.io/onion2k/pen/xxZYBVj
-
-General
+ - General
 https://publishing-project.rivendellweb.net/using-figures-and-flex-box-to-align-captions/
 
 
