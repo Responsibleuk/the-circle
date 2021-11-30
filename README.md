@@ -103,6 +103,12 @@ This website is for anybody who wants to learn more about sustainability and tak
 
 - __Footprint__
 
+ - __Footprint Hero Image__
+
+ - The landing page includes a photograph climate change protestors with an inspirational text overlay 
+
+ - ![Hope Hero](markdown/images/hope-hero.jpg)
+
   - ![Footprint Hero](markdown/images/footprint-hero.png)
 
   - ![Emmissions and sinks image](markdown/images/footprint-image.png)
@@ -111,7 +117,21 @@ This website is for anybody who wants to learn more about sustainability and tak
 
 - __Hope__
 
+- __Hope Hero Image__
+
+ - The landing page includes a photograph climate change protestors with an inspirational text overlay 
+
+ - ![Hope Hero](markdown/images/hope-hero.jpg)
+
+ - The user will be able to click on the releva
+
+ - ![Hope Solution Navigation Section](markdown/images/hope-solutions.jpg)
+
 - __Lifestyle__
+
+- The landing page includes a photograph climate change protestors with an inspirational text overlay 
+
+ - ![Hope Hero](markdown/images/hope-hero.jpg)
 
 - __Coaching__
 
@@ -152,6 +172,13 @@ This website is for anybody who wants to learn more about sustainability and tak
  - ![Carousel Mozilla](markdown/images/mozilla-carousel.jpg)
 
 - __Edge__
+
+ - 
+ - ![First Edge Test](markdown/images/edge-test-1.jpg)
+
+ - ![Second Edge Test](markdown/images/edge-test-2.jpg)
+
+ - ![Third Edge Test](markdown/images/edge-test-3.jpg)
 
 - __Footer__
 
