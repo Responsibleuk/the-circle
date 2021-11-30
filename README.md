@@ -206,27 +206,35 @@ This website is for anybody who wants to learn more about sustainability and tak
 
 - __Waste__
 
+ - ![Waste Validator Testing](markdown/verification/screenshot-waste-test.png)
+
 - __Building Management__
+
+ - ![Building Validator Testing](markdown/verification/screenshot-buildings-test.png)
 
 - __Climate Justice__
 
+ - ![Waste Validator Testing](markdown/verification/screenshot-waste-test.png)
+
 - __Renewable Energy__
 
-- ![Renewables Validator Testing](markdown/verification/screenshot-renewables-test.png)
+ - ![Renewables Validator Testing](markdown/verification/screenshot-renewables-test.png)
 
 - __Footprint__
 
-- ![Footprint Validator Testing](markdown/verification/screenshot-footprint-test.png)
+ - ![Footprint Validator Testing](markdown/verification/screenshot-footprint-test.png)
 
 - __Hope__
 
-- ![Hope Validator Testing](markdown/verification/screenshot-hope-test.png)
+ - ![Hope Validator Testing](markdown/verification/screenshot-hope-test.png)
 
 - __Lifestyle__
 
-- ![Lifestyle Validator Testing](markdown/verification/screenshot-lifestyle-test.png)
+ - ![Lifestyle Validator Testing](markdown/verification/screenshot-lifestyle-test.png)
 
 - __Coaching__
+
+- ![Coaching Validator Testing](markdown/verification/screenshot-coaching-test.png)
 
 - __Join Us__
 
