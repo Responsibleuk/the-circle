@@ -1,8 +1,8 @@
-![The Circle Responsive Website](assets/images/logo/the-circle-horizontal.png)
-
 # The Circle
 
-![The Circle logo](assets/images/responsive.png)
+![The Circle Responsive Website](markdown/images/responsive.png)
+
+![The Circle Logo](assets/images/logo/the-circle-horizontal.png)
 
 Our mission is to create a global wellness community around the ideas and practices of sustainability, simplicity and resilience.
 
@@ -135,11 +135,20 @@ This website is for anybody who wants to learn more about sustainability and tak
 
 - __Lifestyle Page__
 
-- The landing page includes a photograph with an inspirational quote text overlay 
+ - The lifestyle page lets users know what they can do to become more sustainable and introduces them to sustainability life copaching. 
 
- - ![Hope Hero](markdown/images/hope-hero.jpg)
+ - ![Lifestyle Hero](markdown/images/lifestyle-hero.png)
 
-- __Coaching__
+ - The page includes a carousel created with css to engage with users.
+
+ - ![Lifestyle Hero](markdown/images/lifestyle-carousel.png)
+
+ - The page includes a section helping users to understand three things they can do to be more sustainable and happier.
+
+ - ![Diet Mindfullness and Exercise](markdown/images/lifestyle.png)
+
+
+- __Coaching Page__
 
 - __Coaching Hero Image__
 
@@ -307,10 +316,6 @@ Alternatively, if using Gitpod, you can click below to create your own workspace
 
 ### Content 
 
-- The text for the Home page was taken from Wikipedia Article A
-- Instructions on how to implement form validation on the Sign Up page was taken from [Specific YouTube Tutorial](https://www.youtube.com/)
-- The icons in the footer were taken from [Font Awesome](https://fontawesome.com/)
-
  - The content has been inspired by:
  - https://drawdown.org/
  - https://www.tonyrobbins.com/
@@ -335,7 +340,67 @@ https://codepen.io/onion2k/pen/xxZYBVj
 
 - The images used for the UN SDG's are used from this Open Source site 
 
-https://sdgs.un.org/goals
+ - https://sdgs.un.org/goals
+
+- Mission
+ - https://unsplash.com/photos/ICE__bo2Vws
+
+- Rewilding
+ - https://www.rewildingbritain.org.uk/?gclid=EAIaIQobChMIq5Xrqemw9AIV9QMGAB1p0AzKEAAYASAAEgLs9fD_BwE
+
+- Education of Girls
+ - https://media.istockphoto.com/photos/african-little-girls-are-learning-english-language-orphanage-in-kenya-picture-id636215476?b=1&k=20&m=636215476&s=170667a&w=0&h=3XHbwlABL0dw-CvlVNFEP6FUecgFM9ZUP_8kMTqQDNw=
+
+- Building management
+ - https://unsplash.com/photos/Rr4rmrcqRYE
+
+- Climate Justice
+ - https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTiR5HBahHNFO5snniLk2RS_NZcQi0xO_xuvQ&usqp=CAU
+
+- Renewable energy
+ - https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTd7NpV-pmdbSiVBrCk7wXTVZMrIcNogIibsQ&usqp=CAU
+
+- Team
+  -https://unsplash.com/photos/Sj0iMtq_Z4w
+
+- Hero
+ - https://www.wallpaperflare.com/earth-lights-environment-globe-planet-science-space-world-wallpaper-arbut
+
+ - ttps://www.businesswaste.co.uk/wp-content/uploads/2013/09/carbon-neutral.jpeg
+
+- Emissions and sinks 
+  -https://drawdown.org/
+
+- Clean cookstoves 
+ - https://psmag.com/news/do-clean-cookstoves-really-save-lives
+
+- Rice farming 
+ - https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ8M2_ittUnhyhM_tr5y0QgY9nNnwcnJ6kgdg&usqp=CAU
+
+- Education of girls 
+ - https://unsplash.com/photos/M-4lFg1Xfag
+
+- Hero 
+ - https://unsplash.com/photos/M4_pEfJoPqc
+
+- Protest 
+ - https://unsplash.com/photos/7SE389kUVGw
+
+- UN images 
+ - https://www.un.org/sustainabledevelopment/news/communications-material/
+
+- Un eye 
+ - https://watch.globalgoals.org/
+
+- Cop 
+ - https://www.cgiar.org/news-events/event/cgiar-cop26/
+
+- Events 
+ - https://unsplash.com/photos/fIHozNWfcvs
+
+
+
+
 
 
 ### Code
